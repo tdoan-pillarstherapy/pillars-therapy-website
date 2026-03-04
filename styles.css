@@ -300,13 +300,14 @@ ul { list-style: none; }
 
 .hero-tag {
   display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-family: 'Caveat', 'Segoe Script', 'Comic Sans MS', cursive;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0.02em;
   color: var(--color-accent);
   background: var(--color-accent-light);
-  padding: 6px 14px;
+  padding: 6px 18px;
   border-radius: var(--radius-full);
   margin-bottom: var(--space-lg);
 }
@@ -391,6 +392,67 @@ ul { list-style: none; }
   width: 100%;
   height: auto;
   filter: drop-shadow(0 8px 24px rgba(0,0,0,0.08));
+}
+
+.hero-image-wrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 440px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 12px 12px 48px 12px;
+  border-radius: 4px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.08),
+    0 8px 24px rgba(0, 0, 0, 0.1),
+    0 16px 48px rgba(10, 106, 191, 0.1);
+  transform: rotate(2deg);
+  transition: transform 0.3s ease;
+}
+
+.hero-image-wrapper:hover {
+  transform: rotate(0deg);
+}
+
+.hero-image-wrapper::after {
+  content: 'Therapy that\2019s human & real';
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Caveat', 'Segoe Script', 'Comic Sans MS', cursive;
+  font-size: 1.15rem;
+  color: #4a5568;
+  letter-spacing: 0.02em;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  border-radius: 2px;
+  background: linear-gradient(135deg, #e8f0fe 0%, #d4e6f9 100%);
+}
+
+.hero-paper-plane {
+  position: absolute;
+  top: 10%;
+  left: -5%;
+  width: 110%;
+  height: 180%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero {
+  overflow: visible;
+}
+
+.hero .container {
+  position: relative;
 }
 
 @keyframes float {
