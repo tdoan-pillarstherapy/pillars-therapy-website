@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pillars-site",
+      "runtimeExecutable": "ruby",
+      "runtimeArgs": ["/tmp/pillars-site/server.rb"],
+      "port": 8080
+    }
+  ]
+}
