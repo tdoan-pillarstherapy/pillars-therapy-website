@@ -12,8 +12,8 @@ const caveat = Caveat({
 })
 
 export const metadata: Metadata = {
-  title: 'Pillars Therapy | Allied Health Services Across Victoria',
-  description: 'Pillars Therapy delivers Occupational Therapy and Osteopathy services for NDIS, Support at Home, and private clients across Victoria.',
+  title: 'Pillars Therapy | Allied Health Services Across Melbourne',
+  description: 'Pillars Therapy delivers Occupational Therapy and Osteopathy services for NDIS, Support at Home, and private clients across Metro Melbourne.',
   icons: {
     icon: '/assets/PillarsTherapy_Icon_PositiveGrad.png',
     apple: '/assets/PillarsTherapy_Icon_PositiveGrad.png',

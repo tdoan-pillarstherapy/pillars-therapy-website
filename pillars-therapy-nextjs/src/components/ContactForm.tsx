@@ -4,11 +4,46 @@ import { useState, FormEvent } from 'react'
 
 export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState('')
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    // For now, show a confirmation message
-    setIsSubmitted(true)
+    setError('')
+    setIsLoading(true)
+
+    const form = e.currentTarget
+    const formData = new FormData(form)
+
+    const data = {
+      name: formData.get('name') as string,
+      email: formData.get('email') as string,
+      phone: formData.get('phone') as string,
+      funding: formData.get('funding') as string,
+      service: formData.get('service') as string,
+      message: formData.get('message') as string,
+    }
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+
+      const result = await response.json()
+
+      if (!response.ok) {
+        setError(result.error || 'Something went wrong. Please try again.')
+        return
+      }
+
+      setIsSubmitted(true)
+    } catch {
+      setError('Could not connect to the server. Please try again or email us directly at contact@pillarstherapy.com.au')
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   if (isSubmitted) {
@@ -75,7 +110,30 @@ export default function ContactForm() {
           <label htmlFor="message">Message</label>
           <textarea id="message" name="message" rows={4} placeholder="Tell us a bit about what you need..."></textarea>
         </div>
-        <button type="submit" className="btn btn-primary btn-lg btn-full">Send Enquiry</button>
+
+        {error && (
+          <div style={{
+            background: '#fff5f5',
+            border: '1px solid #ffcdd2',
+            borderRadius: '8px',
+            padding: '12px 16px',
+            marginBottom: '16px',
+            color: '#c62828',
+            fontSize: '0.9rem',
+            lineHeight: 1.5,
+          }}>
+            {error}
+          </div>
+        )}
+
+        <button
+          type="submit"
+          className="btn btn-primary btn-lg btn-full"
+          disabled={isLoading}
+          style={isLoading ? { opacity: 0.7, cursor: 'not-allowed' } : undefined}
+        >
+          {isLoading ? 'Sending...' : 'Send Enquiry'}
+        </button>
       </form>
     </div>
   )

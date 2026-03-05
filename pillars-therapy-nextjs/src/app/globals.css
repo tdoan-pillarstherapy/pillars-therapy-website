@@ -975,6 +975,20 @@ ul { list-style: none; }
   left: 20%;
 }
 
+.about-team-image {
+  position: relative;
+  z-index: 1;
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.about-team-image img {
+  width: 85%;
+  max-width: 400px;
+  border-radius: var(--radius-lg);
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.08));
+}
+
 .about-values {
   position: relative;
   z-index: 1;

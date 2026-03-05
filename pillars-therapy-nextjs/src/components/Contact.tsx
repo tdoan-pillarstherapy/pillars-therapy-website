@@ -23,7 +23,7 @@ export default function Contact() {
                   <circle cx="10" cy="8" r="3" />
                   <path d="M10 18s-7-5.75-7-10a7 7 0 0114 0c0 4.25-7 10-7 10z" />
                 </svg>
-                <span>Servicing all of Victoria</span>
+                <span>Servicing all of Metro Melbourne</span>
               </div>
             </div>
           </div>

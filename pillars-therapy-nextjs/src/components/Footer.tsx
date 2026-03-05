@@ -7,7 +7,7 @@ export default function Footer() {
             <span className="logo">
               <img src="/assets/PillarsTherapy_Logo_PositiveGrad.png" alt="Pillars Therapy" className="logo-img footer-logo-img" />
             </span>
-            <p>Multidisciplinary allied health services delivered in your home across Victoria.</p>
+            <p>Multidisciplinary allied health services delivered in your home across Metro Melbourne.</p>
           </div>
           <div className="footer-col">
             <h4>Services</h4>
@@ -29,7 +29,7 @@ export default function Footer() {
             <ul>
               <li><a href="mailto:contact@pillarstherapy.com.au">contact@pillarstherapy.com.au</a></li>
               <li><a href="#contact">Send an Enquiry</a></li>
-              <li>Servicing all of Victoria</li>
+              <li>Servicing all of Metro Melbourne</li>
             </ul>
           </div>
         </div>
