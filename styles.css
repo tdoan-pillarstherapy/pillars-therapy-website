@@ -61,6 +61,7 @@ html {
 }
 
 body {
+  position: relative;
   font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.6;
@@ -210,7 +211,7 @@ ul { list-style: none; }
 }
 
 .footer-logo-img {
-  height: 32px;
+  height: 68px;
   filter: brightness(0) invert(1);
 }
 
@@ -437,22 +438,25 @@ ul { list-style: none; }
   background: linear-gradient(135deg, #e8f0fe 0%, #d4e6f9 100%);
 }
 
-.hero-paper-plane {
+/* Full-page paper plane trail */
+.page-plane-trail {
   position: absolute;
-  top: 10%;
-  left: -5%;
-  width: 110%;
-  height: 180%;
+  top: 0;
+  left: 0;
+  width: 100%;
   pointer-events: none;
-  z-index: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+.page-plane-trail.visible {
+  opacity: 1;
 }
 
-.hero {
-  overflow: visible;
-}
-
-.hero .container {
-  position: relative;
+@media (max-width: 1024px) {
+  .page-plane-trail {
+    display: none;
+  }
 }
 
 @keyframes float {
@@ -952,6 +956,23 @@ ul { list-style: none; }
   grid-template-columns: 1fr 1fr;
   gap: var(--space-3xl);
   align-items: start;
+  position: relative;
+}
+
+/* Cartoon mailbox at trail endpoint */
+.mailbox-wrapper {
+  position: absolute;
+  left: 12%;
+  bottom: -10px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+@media (max-width: 1024px) {
+  .mailbox-wrapper {
+    display: none;
+  }
 }
 
 .contact-info .section-tag {

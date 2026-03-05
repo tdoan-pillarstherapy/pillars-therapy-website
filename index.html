@@ -10,9 +10,49 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
+  <!-- Full-page paper plane trail -->
+  <svg class="page-plane-trail" id="planeTrail" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="planeShadow" x="-40%" y="-40%" width="180%" height="180%">
+        <feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-color="#3a5a7a" flood-opacity="0.3"/>
+      </filter>
+    </defs>
+    <path class="plane-trail" d="" stroke="var(--color-primary)" stroke-width="1.5" stroke-dasharray="6 8" stroke-linecap="round" fill="none" opacity="0.18"/>
+    <g class="plane-icon" filter="url(#planeShadow)">
+      <g transform="scale(2.6)">
+        <!-- Hand-drawn sketch-style paper plane — nose points RIGHT (0°) -->
+        <!-- Rotation in JS orients it along the path direction -->
+
+        <!-- Top wing (main visible surface) -->
+        <path d="M32,11 L0,0 L9,10 Z" fill="#ffffff" stroke="#3a3a3a" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <!-- Bottom wing (slightly below, shows depth) -->
+        <path d="M32,11 L0,20 L9,12 Z" fill="#f0f0f0" stroke="#3a3a3a" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <!-- Center fold crease -->
+        <path d="M32,11 L0,10" fill="none" stroke="#3a3a3a" stroke-width="0.8" stroke-linecap="round"/>
+
+        <!-- Tail tuck fold -->
+        <path d="M9,10 L9,12 L4,11 Z" fill="#e8e8e8" stroke="#3a3a3a" stroke-width="0.5" stroke-linejoin="round"/>
+
+        <!-- Hatching lines on bottom wing (sketch shading) -->
+        <line x1="12" y1="11.3" x2="7" y2="13.5" stroke="#555" stroke-width="0.4" stroke-linecap="round"/>
+        <line x1="15" y1="11.3" x2="9" y2="14.5" stroke="#555" stroke-width="0.4" stroke-linecap="round"/>
+        <line x1="18" y1="11.3" x2="11" y2="15.5" stroke="#555" stroke-width="0.4" stroke-linecap="round"/>
+        <line x1="21" y1="11.3" x2="13.5" y2="16" stroke="#555" stroke-width="0.4" stroke-linecap="round"/>
+        <line x1="24" y1="11.3" x2="16" y2="16.5" stroke="#555" stroke-width="0.4" stroke-linecap="round"/>
+        <line x1="27" y1="11.3" x2="18.5" y2="17" stroke="#555" stroke-width="0.4" stroke-linecap="round"/>
+        <line x1="30" y1="11.2" x2="21" y2="17.5" stroke="#555" stroke-width="0.35" stroke-linecap="round"/>
+
+        <!-- Subtle inner fold line on top wing -->
+        <path d="M28,10.5 L5,2" fill="none" stroke="#bbb" stroke-width="0.35" stroke-dasharray="1.5 2" stroke-linecap="round"/>
+      </g>
+    </g>
+  </svg>
+
   <!-- Header -->
   <header class="header" id="header">
     <div class="container header-inner">
@@ -56,14 +96,6 @@
         </div>
       </div>
     </div>
-    <!-- Paper plane with dotted trail spanning hero to pathways -->
-    <svg class="hero-paper-plane" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-      <path class="plane-trail" d="M1080,60 C1020,100 940,150 850,175 C740,205 620,180 500,220 C380,260 280,330 200,380 C140,420 120,470 160,520 C220,590 350,610 480,600 C580,592 650,570 600,620 C560,660 480,700 420,740" stroke="var(--color-primary)" stroke-width="2" stroke-dasharray="8 6" stroke-linecap="round" fill="none" opacity="0.25"/>
-      <g transform="translate(1072,52) rotate(-35)">
-        <path d="M0,12 L28,0 L8,12 L28,24 Z" fill="var(--color-primary)" opacity="0.5"/>
-        <path d="M8,12 L28,0 L20,12" fill="var(--color-primary-dark)" opacity="0.35"/>
-      </g>
-    </svg>
   </section>
 
   <div class="section-divider">
@@ -588,6 +620,72 @@
             </a>
           </div>
         </div>
+        <!-- Hand-drawn mailbox where paper plane trail ends -->
+        <div class="mailbox-wrapper" id="mailbox" aria-hidden="true">
+          <svg width="160" height="200" viewBox="0 0 160 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Post -->
+            <path d="M68,95 L68,185 Q68,190 72,190 L88,190 Q92,190 92,185 L92,95"
+                  fill="#d4c4a8" stroke="#2d2d2d" stroke-width="2" stroke-linejoin="round"/>
+            <!-- Post wood grain -->
+            <line x1="74" y1="100" x2="74" y2="186" stroke="#b8a882" stroke-width="0.7" stroke-dasharray="4 6"/>
+            <line x1="80" y1="98" x2="80" y2="188" stroke="#b8a882" stroke-width="0.5" stroke-dasharray="3 8"/>
+            <line x1="86" y1="100" x2="86" y2="186" stroke="#b8a882" stroke-width="0.6" stroke-dasharray="5 7"/>
+
+            <!-- Post base plate -->
+            <rect x="60" y="186" width="40" height="6" rx="2" fill="#c4b490" stroke="#2d2d2d" stroke-width="1.5"/>
+
+            <!-- Mailbox body — rounded US-style with flat front -->
+            <path d="M20,50 Q20,22 80,22 Q140,22 140,50 L140,92 L20,92 Z"
+                  fill="#f0ebe0" stroke="#2d2d2d" stroke-width="2.5" stroke-linejoin="round"/>
+
+            <!-- Front face / door -->
+            <path d="M20,92 L140,92" stroke="#2d2d2d" stroke-width="2.8"/>
+            <!-- Door flap (slightly open) -->
+            <path d="M30,92 Q30,85 80,83 Q130,85 130,92" fill="#e8e0d0" stroke="#2d2d2d" stroke-width="1.5"/>
+            <!-- Door handle -->
+            <circle cx="80" cy="88" r="3" fill="none" stroke="#2d2d2d" stroke-width="1.5"/>
+
+            <!-- Side panel lines (depth) -->
+            <path d="M20,50 L20,92" stroke="#2d2d2d" stroke-width="2"/>
+            <path d="M140,50 L140,92" stroke="#2d2d2d" stroke-width="2"/>
+
+            <!-- Side letter slot -->
+            <rect x="26" y="62" width="20" height="14" rx="2" fill="none" stroke="#2d2d2d" stroke-width="1.5"/>
+            <line x1="28" y1="69" x2="44" y2="69" stroke="#2d2d2d" stroke-width="1"/>
+
+            <!-- Flag (raised) -->
+            <rect x="138" y="34" width="7" height="36" rx="2" fill="#d94535" stroke="#2d2d2d" stroke-width="1.5"/>
+            <path d="M136,28 L155,28 Q158,28 158,31 L158,36 Q158,39 155,39 L136,39 Z"
+                  fill="#d94535" stroke="#2d2d2d" stroke-width="1.5" stroke-linejoin="round"/>
+
+            <!-- "MAIL" text -->
+            <text x="80" y="74" text-anchor="middle" font-family="'Caveat', cursive" font-size="22" fill="#2d2d2d" font-weight="700" letter-spacing="2">MAIL</text>
+
+            <!-- Envelope peeking out of door slot -->
+            <g transform="translate(55, 78) rotate(-5)">
+              <rect x="0" y="0" width="22" height="15" rx="1.5" fill="#fff" stroke="#2d2d2d" stroke-width="1.2"/>
+              <path d="M1,1 L11,8 L21,1" fill="none" stroke="#2d2d2d" stroke-width="0.9"/>
+            </g>
+
+            <!-- Envelope floating out top-right -->
+            <g transform="translate(105, 10) rotate(15)">
+              <rect x="0" y="0" width="18" height="12" rx="1.5" fill="#fff" stroke="#2d2d2d" stroke-width="1"/>
+              <path d="M1,1 L9,7 L17,1" fill="none" stroke="#2d2d2d" stroke-width="0.7"/>
+            </g>
+
+            <!-- Small envelope top-left -->
+            <g transform="translate(30, 5) rotate(-12)">
+              <rect x="0" y="0" width="15" height="10" rx="1" fill="#fff" stroke="#2d2d2d" stroke-width="0.9"/>
+              <path d="M0.5,0.5 L7.5,5.5 L14.5,0.5" fill="none" stroke="#2d2d2d" stroke-width="0.6"/>
+            </g>
+
+            <!-- Grass at base -->
+            <path d="M45,192 C48,182 51,192 54,184 C57,192 60,183 63,192" fill="none" stroke="#5a8a5a" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M95,192 C98,183 101,192 104,184 C107,192 110,182 113,192" fill="none" stroke="#5a8a5a" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M70,192 C72,186 75,192 77,187" fill="none" stroke="#5a8a5a" stroke-width="0.8" stroke-linecap="round"/>
+          </svg>
+        </div>
+
         <div class="contact-form-wrapper">
           <form class="contact-form" id="contactForm">
             <div class="form-group">
@@ -692,6 +790,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>
