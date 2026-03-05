@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <!-- Full-page paper plane trail -->
@@ -91,8 +91,31 @@
         <div class="hero-shape hero-shape-1"></div>
         <div class="hero-shape hero-shape-2"></div>
         <div class="hero-shape hero-shape-3"></div>
-        <div class="hero-image-wrapper">
-          <img src="assets/hero-image.png" alt="Active elderly clients enjoying sports and outdoor activities" class="hero-image">
+        <div class="picture-frame-assembly">
+          <!-- Cartoon nail in the wall -->
+          <svg class="wall-nail" width="36" height="40" viewBox="0 0 36 40" aria-hidden="true">
+            <ellipse cx="20" cy="13" rx="9" ry="3.5" fill="rgba(0,0,0,0.15)"/>
+            <ellipse cx="18" cy="10" rx="11" ry="5.5" fill="#888" stroke="#4a4a4a" stroke-width="1.8"/>
+            <ellipse cx="18" cy="9" rx="7" ry="3" fill="#b0b0b0" opacity="0.5"/>
+            <rect x="15.5" y="13" width="5" height="22" rx="1.5" fill="#777" stroke="#4a4a4a" stroke-width="1"/>
+            <rect x="16.8" y="14" width="1.8" height="20" rx="0.8" fill="#999" opacity="0.35"/>
+          </svg>
+          <!-- String / twine from nail to frame top corners -->
+          <svg class="hanging-string" viewBox="0 0 440 70" preserveAspectRatio="none" aria-hidden="true">
+            <!-- Left string: nail → droop → frame top-left (higher due to 2° rotation) -->
+            <path d="M220,0 Q100,42 6,60" fill="none" stroke="#7a6040" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- Right string: nail → droop → frame top-right (lower due to 2° rotation) -->
+            <path d="M220,0 Q340,42 434,68" fill="none" stroke="#7a6040" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- Highlight on strings -->
+            <path d="M220,0 Q100,42 6,60" fill="none" stroke="#a08b6b" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+            <path d="M220,0 Q340,42 434,68" fill="none" stroke="#a08b6b" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+          </svg>
+          <!-- The picture frame -->
+          <div class="hero-image-wrapper">
+            <div class="frame-inner-border">
+              <img src="assets/hero-image.png" alt="Active elderly clients enjoying sports and outdoor activities" class="hero-image">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -604,21 +627,6 @@
               <span>Servicing all of Victoria</span>
             </div>
           </div>
-          <div class="contact-social">
-            <a href="#" aria-label="Instagram" class="social-link">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
-                <rect x="2" y="2" width="16" height="16" rx="5"/>
-                <circle cx="10" cy="10" r="4"/>
-                <circle cx="14.5" cy="5.5" r="1" fill="currentColor" stroke="none"/>
-              </svg>
-            </a>
-            <a href="#" aria-label="LinkedIn" class="social-link">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
-                <rect x="2" y="2" width="16" height="16" rx="3"/>
-                <path d="M6 9v5M6 6v.01M10 14v-3.5a2 2 0 014 0V14"/>
-              </svg>
-            </a>
-          </div>
         </div>
         <!-- Hand-drawn mailbox where paper plane trail ends -->
         <div class="mailbox-wrapper" id="mailbox" aria-hidden="true">
@@ -750,14 +758,6 @@
             <img src="assets/PillarsTherapy_Logo_PositiveGrad.png" alt="Pillars Therapy" class="logo-img footer-logo-img">
           </span>
           <p>Multidisciplinary allied health services delivered in your home across Victoria.</p>
-          <div class="footer-social">
-            <a href="#" class="footer-social-link" aria-label="Instagram">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-            </a>
-            <a href="#" class="footer-social-link" aria-label="LinkedIn">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-            </a>
-          </div>
         </div>
         <div class="footer-col">
           <h4>Services</h4>
