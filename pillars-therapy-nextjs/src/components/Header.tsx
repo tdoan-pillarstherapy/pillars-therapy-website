@@ -55,7 +55,6 @@ export default function Header() {
     { href: '#ndis', label: 'NDIS' },
     { href: '#sah', label: 'Support at Home' },
     { href: '#about', label: 'About' },
-    { href: '#contact', label: 'Contact' },
   ]
 
   return (
@@ -76,7 +75,7 @@ export default function Header() {
             </a>
           ))}
           <a href="#contact" className="btn btn-primary nav-cta" onClick={closeMenu}>
-            Get in Touch
+            Contact Us
           </a>
         </nav>
         <button
