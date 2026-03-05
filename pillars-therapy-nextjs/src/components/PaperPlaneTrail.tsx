@@ -118,13 +118,14 @@ export default function PaperPlaneTrail() {
       const contactTop = absTop(contactSection)
 
       // Target the mailbox element for trail endpoint
+      // The postbox illustration has the mailbox opening on the right side, upper area
       const mailbox = document.getElementById('mailbox')
       let mailboxEndX = pageWidth * 0.5
       let mailboxEndY = contactTop + contactSection.offsetHeight * 0.45
       if (mailbox) {
         const mbRect = mailbox.getBoundingClientRect()
-        mailboxEndX = mbRect.left + mbRect.width * 0.5 + window.scrollX
-        mailboxEndY = mbRect.top + mbRect.height * 0.25 + window.scrollY
+        mailboxEndX = mbRect.left + mbRect.width * 0.78 + window.scrollX
+        mailboxEndY = mbRect.top + mbRect.height * 0.22 + window.scrollY
       }
 
       // Start clearly inside the viewport

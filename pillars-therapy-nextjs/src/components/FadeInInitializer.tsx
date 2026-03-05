@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 export default function FadeInInitializer() {
   useEffect(() => {
     const elements = document.querySelectorAll(
-      '.pathway-card, .discipline-card, .service-item, .value-item, .about-content, .contact-info, .contact-form-wrapper'
+      '.pathway-card, .discipline-card, .service-item, .polaroid, .about-content, .contact-info, .contact-form-wrapper'
     )
 
     elements.forEach((el) => el.classList.add('fade-in'))

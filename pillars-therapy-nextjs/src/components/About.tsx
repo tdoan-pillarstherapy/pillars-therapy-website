@@ -5,7 +5,7 @@ export default function About() {
         <div className="about-grid">
           <div className="about-content">
             <span className="section-tag">About Us</span>
-            <h2>Therapy that&apos;s human and real</h2>
+            <h2>Therapy that&apos;s <span className="handwritten-accent">human and <span className="underline-accent">real</span></span></h2>
             <p>Pillars Therapy is a leading allied health service provider delivering multidisciplinary rehabilitation services in your home and remotely via Telehealth across Metro Melbourne. We can also service regional areas at an additional travel cost.</p>
             <p>Our team of occupational therapists and osteopaths are passionate about helping you achieve your goals, whether that&apos;s returning to driving, modifying your home for better accessibility, managing pain, or building strength and independence.</p>
             <p>We believe everyone deserves care that&apos;s responsive, respectful, and tailored to their life. That&apos;s why we come to you.</p>
@@ -23,35 +23,24 @@ export default function About() {
           <div className="about-visual">
             <div className="about-shape about-shape-1"></div>
             <div className="about-shape about-shape-2"></div>
-            <div className="about-team-image">
-              <img src="/assets/team-illustration.png" alt="Illustration of the Pillars Therapy team sitting together" />
-            </div>
-            <div className="about-values">
-              <div className="value-item">
-                <span className="value-icon">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M10 3l2.5 5 5.5.8-4 3.9.9 5.3-4.9-2.6-4.9 2.6.9-5.3-4-3.9 5.5-.8z" />
-                  </svg>
-                </span>
-                <span>Person-centred care</span>
+            <div className="polaroid-gallery">
+              <div className="polaroid polaroid-1">
+                <div className="polaroid-frame">
+                  <img src="/assets/team-illustration.png" alt="The Pillars Therapy team sitting together" />
+                  <span className="polaroid-caption">The team at Pillars Therapy</span>
+                </div>
               </div>
-              <div className="value-item">
-                <span className="value-icon">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <circle cx="10" cy="10" r="8" />
-                    <path d="M7 10l2 2 4-4" />
-                  </svg>
-                </span>
-                <span>Evidence-based practice</span>
+              <div className="polaroid polaroid-2">
+                <div className="polaroid-frame">
+                  <img src="/assets/about-illustration-2.png" alt="Therapist chatting with a client" />
+                  <span className="polaroid-caption">Laughing with Mary</span>
+                </div>
               </div>
-              <div className="value-item">
-                <span className="value-icon">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M3 10c0-3.866 3.134-7 7-7s7 3.134 7 7-3.134 7-7 7" />
-                    <path d="M10 6v4l2.5 2.5" />
-                  </svg>
-                </span>
-                <span>Responsive &amp; flexible</span>
+              <div className="polaroid polaroid-3">
+                <div className="polaroid-frame">
+                  <img src="/assets/about-illustration-3.png" alt="Laughing during a therapy session" />
+                  <span className="polaroid-caption">Chatting with John</span>
+                </div>
               </div>
             </div>
           </div>

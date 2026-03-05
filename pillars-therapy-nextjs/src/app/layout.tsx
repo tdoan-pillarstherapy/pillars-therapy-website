@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Caveat } from 'next/font/google'
+import { Caveat, Permanent_Marker } from 'next/font/google'
 import './globals.css'
 import PaperPlaneTrail from '@/components/PaperPlaneTrail'
 import FadeInInitializer from '@/components/FadeInInitializer'
@@ -8,6 +8,13 @@ const caveat = Caveat({
   subsets: ['latin'],
   weight: ['500'],
   variable: '--font-caveat',
+  display: 'swap',
+})
+
+const permanentMarker = Permanent_Marker({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-marker',
   display: 'swap',
 })
 
@@ -26,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={caveat.variable}>
+    <html lang="en" className={`${caveat.variable} ${permanentMarker.variable}`}>
       <body>
         <PaperPlaneTrail />
         {children}

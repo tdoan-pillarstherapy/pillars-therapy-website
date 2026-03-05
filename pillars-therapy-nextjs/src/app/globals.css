@@ -912,11 +912,46 @@ ul { list-style: none; }
 
 .about-content h2 {
   font-family: var(--font-heading);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.3;
   letter-spacing: -0.02em;
   margin-bottom: var(--space-lg);
+}
+
+.handwritten-accent {
+  font-family: var(--font-marker, 'Permanent Marker', 'Caveat', cursive);
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 0.01em;
+  color: var(--color-primary);
+}
+
+.underline-accent {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-accent::before,
+.underline-accent::after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  right: -4px;
+  height: 3px;
+  background: var(--color-primary);
+  border-radius: 2px;
+}
+
+.underline-accent::before {
+  bottom: -4px;
+  transform: rotate(-1.2deg);
+}
+
+.underline-accent::after {
+  bottom: -11px;
+  transform: rotate(0.8deg);
+  opacity: 0.6;
 }
 
 .about-content p {
@@ -975,51 +1010,94 @@ ul { list-style: none; }
   left: 20%;
 }
 
-.about-team-image {
+/* Polaroid photo gallery */
+.polaroid-gallery {
   position: relative;
   z-index: 1;
-  margin-bottom: var(--space-lg);
+  width: 100%;
+  height: 520px;
+}
+
+.polaroid {
+  position: absolute;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.polaroid-frame {
+  background: #fff;
+  padding: 10px 10px 40px 10px;
+  border-radius: 2px;
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.15),
+    0 8px 24px rgba(0, 0, 0, 0.08),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.polaroid-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
+}
+
+.polaroid-caption {
+  display: block;
   text-align: center;
+  font-family: var(--font-caveat, 'Caveat', 'Segoe Script', cursive);
+  font-size: 1.05rem;
+  color: #555;
+  padding-top: 8px;
+  letter-spacing: 0.01em;
 }
 
-.about-team-image img {
-  width: 85%;
-  max-width: 400px;
-  border-radius: var(--radius-lg);
-  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.08));
-}
-
-.about-values {
-  position: relative;
+/* Photo 1 — top right, tilted like someone tossed it down */
+.polaroid-1 {
+  width: 310px;
+  top: 0;
+  right: 0;
+  transform: rotate(7deg);
   z-index: 1;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
 }
 
-.value-item {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
-  background: white;
-  padding: var(--space-lg) var(--space-xl);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
-  font-weight: 500;
-  font-size: 0.95rem;
+/* Photo 2 — middle left, leaning the other way */
+.polaroid-2 {
+  width: 270px;
+  top: 100px;
+  left: 0;
+  transform: rotate(-8deg);
+  z-index: 2;
 }
 
-.value-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: var(--color-primary-light);
-  color: var(--color-primary);
-  border-radius: var(--radius-sm);
-  flex-shrink: 0;
+/* Photo 3 — bottom right, tilted the opposite way */
+.polaroid-3 {
+  width: 290px;
+  bottom: -20px;
+  right: 10px;
+  transform: rotate(5deg);
+  z-index: 3;
 }
+
+/* Hover wobble effect — like the hero picture frame */
+.polaroid:hover {
+  z-index: 10;
+  animation: polaroid-wobble 0.6s ease-in-out;
+}
+
+@keyframes polaroid-wobble {
+  0% { transform: rotate(var(--base-rotate, 0deg)) scale(1); }
+  15% { transform: rotate(calc(var(--base-rotate, 0deg) - 5deg)) scale(1.04); }
+  30% { transform: rotate(calc(var(--base-rotate, 0deg) + 3deg)) scale(1.04); }
+  45% { transform: rotate(calc(var(--base-rotate, 0deg) - 2deg)) scale(1.03); }
+  60% { transform: rotate(calc(var(--base-rotate, 0deg) + 1.5deg)) scale(1.02); }
+  75% { transform: rotate(calc(var(--base-rotate, 0deg) - 0.5deg)) scale(1.01); }
+  100% { transform: rotate(var(--base-rotate, 0deg)) scale(1); }
+}
+
+.polaroid-1 { --base-rotate: 7deg; }
+.polaroid-2 { --base-rotate: -8deg; }
+.polaroid-3 { --base-rotate: 5deg; }
 
 /* ===== PARTNERS ===== */
 .partners {
@@ -1073,11 +1151,16 @@ ul { list-style: none; }
 /* Cartoon mailbox at trail endpoint */
 .mailbox-wrapper {
   position: absolute;
-  left: 12%;
-  bottom: -10px;
+  left: -2%;
+  bottom: -20px;
   z-index: 2;
   pointer-events: none;
-  opacity: 0.9;
+}
+
+.mailbox-img {
+  width: 547px;
+  height: auto;
+  border-radius: 12px;
 }
 
 @media (max-width: 1024px) {
@@ -1374,8 +1457,17 @@ ul { list-style: none; }
   }
 
   .about-visual {
-    min-height: 280px;
+    min-height: 420px;
   }
+
+  .polaroid-gallery {
+    height: 420px;
+  }
+
+  .polaroid-gallery { height: 460px; }
+  .polaroid-1 { width: 260px; }
+  .polaroid-2 { width: 230px; top: 90px; }
+  .polaroid-3 { width: 245px; }
 
   .contact-grid {
     grid-template-columns: 1fr;
@@ -1461,6 +1553,10 @@ ul { list-style: none; }
   .about-content h2,
   .contact-info h2 {
     font-size: 2rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
   }
 
   .about-stats {
