@@ -5,6 +5,7 @@
     "supportAtHome": "居家支持",
     "about": "关于我们",
     "contactUs": "联系我们",
+    "referralForm": "转介表格",
     "accessibility": "无障碍"
   },
   "hero": {
@@ -99,6 +100,10 @@
         "title": "复杂轮椅评估",
         "description": "为手动和电动轮椅提供专业评估，包括座椅和体位摆放。我们与您和设备供应商合作，确保最佳的舒适度、功能性和移动性。"
       },
+      "vehicleMod": {
+        "title": "车辆改装评估",
+        "description": "我们评估您的车辆改装需求，以支持安全独立的驾驶或乘客运输。我们的职业治疗师提供详细的报告和建议，与改装专家合作，确保为您的出行需求找到合适的解决方案。"
+      },
       "painNdis": {
         "title": "疼痛管理",
         "description": "在您家中提供手法整骨治疗——我们上门服务并自带所有所需设备。我们的整骨治疗师处理肌肉骨骼疼痛、改善活动能力，并通过根据您的病情和目标量身定制的个性化管理计划来支持您的整体健康。"
@@ -191,7 +196,8 @@
       "Pillars Therapy团队",
       "与Mary欢笑",
       "与John交谈"
-    ]
+    ],
+    "referralButton": "提交在线转介"
   },
   "contact": {
     "tag": "开始",
@@ -225,6 +231,7 @@
       "at": "辅助技术评估",
       "sda-sil": "SDA/SIL申请",
       "wheelchair": "轮椅评估",
+      "vehicle-mod": "车辆改装评估",
       "pain": "疼痛管理",
       "exercise": "运动方案",
       "chronic": "慢性疾病管理",
@@ -251,6 +258,8 @@
     "contactHeading": "联系方式",
     "sendEnquiry": "发送咨询",
     "serviceArea": "服务覆盖整个墨尔本都市区",
+    "acknowledgement": "Pillars Therapy 承认这片土地、天空和水域的传统守护者，并向过去和现在的长老致以敬意。我们承认所有原住民和托雷斯海峡岛民及其文化、遗产和自决权。",
+    "inclusivity": "在 Pillars Therapy，每个人都属于这里。我们的服务欢迎来自各种背景、能力、身份和生活经历的人。在这里，您将被尊重、理解和支持——做真实的自己。",
     "abn": "ABN 56 454 434 878",
     "copyright": "© 2026 Pillars Therapy. 版权所有。"
   },

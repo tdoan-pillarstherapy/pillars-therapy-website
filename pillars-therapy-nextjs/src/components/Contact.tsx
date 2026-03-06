@@ -15,6 +15,9 @@ export default function Contact() {
             <span className="section-tag">{t.contact.tag}</span>
             <h2>{t.contact.heading}</h2>
             <p>{t.contact.description}</p>
+            <a href="https://2k9chb2unr5.typeform.com/to/vPGnhCcU#name=xxxxx&product_id=xxxxx" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-lg contact-referral">
+              {t.about.referralButton} &rarr;
+            </a>
             <div className="contact-details">
               <div className="contact-row">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">

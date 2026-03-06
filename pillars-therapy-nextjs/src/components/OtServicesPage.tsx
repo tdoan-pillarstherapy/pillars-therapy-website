@@ -85,6 +85,16 @@ export default function OtServicesPage() {
                 <p>{t.ndisServices.services.wheelchair.description}</p>
               </div>
             </div>
+
+            <div className="service-item">
+              <div className="service-icon">
+                <img src="/assets/icons/driving-assessment.png" alt="" />
+              </div>
+              <div className="service-text">
+                <h4>{t.ndisServices.services.vehicleMod.title}</h4>
+                <p>{t.ndisServices.services.vehicleMod.description}</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -94,7 +104,7 @@ export default function OtServicesPage() {
         <div className="container">
           <div className="funding-header">
             <div className="funding-header-logo">
-              <img src="/assets/support-at-home-logo.jpeg" alt="Support at Home" className="funding-logo" />
+              <img src="/assets/support-at-home-logo.png" alt="Support at Home" className="funding-logo" />
             </div>
             <h2>{t.otPage.sahHeading}</h2>
             <p>{t.sahServices.description}</p>

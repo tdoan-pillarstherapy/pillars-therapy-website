@@ -24,7 +24,7 @@ export default function Pathways() {
           </a>
           <a href="/support-at-home" className="pathway-card pathway-sah">
             <div className="pathway-icon">
-              <img src="/assets/support-at-home-logo.jpeg" alt="Support at Home" className="pathway-logo" />
+              <img src="/assets/support-at-home-logo.png" alt="Support at Home" className="pathway-logo" />
             </div>
             <h3>{t.pathways.sah.title}</h3>
             <p>{t.pathways.sah.description}</p>

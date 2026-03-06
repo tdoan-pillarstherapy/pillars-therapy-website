@@ -54,7 +54,7 @@ export default function OsteoServicesPage() {
         <div className="container">
           <div className="funding-header">
             <div className="funding-header-logo">
-              <img src="/assets/support-at-home-logo.jpeg" alt="Support at Home" className="funding-logo" />
+              <img src="/assets/support-at-home-logo.png" alt="Support at Home" className="funding-logo" />
             </div>
             <h2>{t.osteoPage.sahHeading}</h2>
             <p>{t.sahServices.description}</p>

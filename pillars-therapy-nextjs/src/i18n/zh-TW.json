@@ -5,6 +5,7 @@
     "supportAtHome": "居家支援",
     "about": "關於我們",
     "contactUs": "聯絡我們",
+    "referralForm": "轉介表格",
     "accessibility": "無障礙設施"
   },
   "hero": {
@@ -99,6 +100,10 @@
         "title": "複雜輪椅評估",
         "description": "為手動及電動輪椅提供專業評估，包括座位及姿勢調整。我們與你同器材供應商合作，確保最佳嘅舒適度、功能性同活動能力。"
       },
+      "vehicleMod": {
+        "title": "車輛改裝評估",
+        "description": "我們評估你嘅車輛改裝需要，以支持安全獨立嘅駕駛或乘客運輸。我們嘅職業治療師提供詳細嘅報告同建議，與改裝專家合作，確保為你嘅出行需要揀選合適嘅解決方案。"
+      },
       "painNdis": {
         "title": "痛症管理",
         "description": "上門提供嘅骨療法手法治療——我們上門服務，自備所有器材。我們嘅骨療師處理肌肉骨骼痛症、改善活動能力，並透過度身訂造嘅管理方案支持你嘅整體健康。"
@@ -191,7 +196,8 @@
       "Pillars Therapy 嘅團隊",
       "同 Mary 開心傾偈",
       "同 John 閒聊"
-    ]
+    ],
+    "referralButton": "提交網上轉介"
   },
   "contact": {
     "tag": "開始使用",
@@ -225,6 +231,7 @@
       "at": "輔助器材評估",
       "sda-sil": "SDA/SIL 申請",
       "wheelchair": "輪椅評估",
+      "vehicle-mod": "車輛改裝評估",
       "pain": "痛症管理",
       "exercise": "運動計劃",
       "chronic": "慢性疾病管理",
@@ -251,6 +258,8 @@
     "contactHeading": "聯絡",
     "sendEnquiry": "提交查詢",
     "serviceArea": "服務覆蓋整個墨爾本都會區",
+    "acknowledgement": "Pillars Therapy 承認這片土地、天空和水域嘅傳統守護者，並向過去和現在嘅長老致以敬意。我們承認所有原住民和托雷斯海峽島民及其文化、遺產和自決權。",
+    "inclusivity": "喺 Pillars Therapy，每個人都屬於呢度。我們嘅服務歡迎來自各種背景、能力、身份和生活經歷嘅人。喺呢度，你會被尊重、理解和支持——做真實嘅自己。",
     "abn": "ABN 56 454 434 878",
     "copyright": "\u00a9 2026 Pillars Therapy. All rights reserved."
   },

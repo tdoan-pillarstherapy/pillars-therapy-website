@@ -5,6 +5,7 @@
     "supportAtHome": "Support at Home",
     "about": "About",
     "contactUs": "Contact Us",
+    "referralForm": "Referral Form",
     "accessibility": "Accessibility"
   },
   "hero": {
@@ -99,6 +100,10 @@
         "title": "Complex Wheelchair Assessments",
         "description": "Specialised assessments for manual and power wheelchairs, including seating and positioning. We work with you and equipment suppliers to ensure optimal comfort, function, and mobility."
       },
+      "vehicleMod": {
+        "title": "Vehicle Modification Assessments",
+        "description": "We assess your vehicle modification needs to support safe and independent driving or passenger transport. Our OTs provide detailed reports and recommendations for vehicle adaptations, working with modification specialists to ensure the right solutions for your mobility requirements."
+      },
       "painNdis": {
         "title": "Pain Management",
         "description": "Hands-on osteopathic treatment delivered in your home \u2014 we travel to you and bring everything we need. Our osteopaths address musculoskeletal pain, improve mobility, and support your overall wellbeing with personalised management plans tailored to your condition and goals."
@@ -191,7 +196,8 @@
       "The team at Pillars Therapy",
       "Laughing with Mary",
       "Chatting with John"
-    ]
+    ],
+    "referralButton": "Submit an Online Referral"
   },
   "contact": {
     "tag": "Get Started",
@@ -225,6 +231,7 @@
       "at": "Assistive Technology Assessments",
       "sda-sil": "SDA/SIL Applications",
       "wheelchair": "Wheelchair Assessments",
+      "vehicle-mod": "Vehicle Modification Assessments",
       "pain": "Pain Management",
       "exercise": "Exercise Programs",
       "chronic": "Chronic Condition Management",
@@ -251,6 +258,8 @@
     "contactHeading": "Contact",
     "sendEnquiry": "Send an Enquiry",
     "serviceArea": "Servicing all of Metro Melbourne",
+    "acknowledgement": "Pillars Therapy acknowledges the Traditional Custodians of the lands, skies and waterways and pays respect to Elders past and present. We acknowledge all Aboriginal and Torres Strait Islander peoples and their culture, heritage and right to self-determination.",
+    "inclusivity": "At Pillars Therapy, everyone belongs. Our services welcome people of all backgrounds, abilities, identities and lived experience. Here, you will be respected, understood and supported \u2013 exactly as you are.",
     "abn": "ABN 56 454 434 878",
     "copyright": "\u00a9 2026 Pillars Therapy. All rights reserved."
   },

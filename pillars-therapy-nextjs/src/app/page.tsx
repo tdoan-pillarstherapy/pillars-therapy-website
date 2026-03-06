@@ -12,10 +12,11 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <SectionDivider pathD="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff" />
+      <SectionDivider pathD="M0,30 C320,70 720,10 1440,50 L1440,80 L0,80 Z" fill="#ffffff" />
       <Pathways />
       <SectionDivider pathD="M0,60 C480,0 960,80 1440,20 L1440,80 L0,80 Z" fill="#f0f7ff" />
       <Disciplines />
+      <SectionDivider pathD="M0,30 C320,70 720,10 1440,50 L1440,80 L0,80 Z" fill="#ffffff" />
       <About />
       <SectionDivider pathD="M0,30 C320,70 720,10 1440,50 L1440,80 L0,80 Z" fill="#e6f1fb" />
       <Contact />

@@ -8,21 +8,9 @@ export default function SahServices() {
   return (
     <section className="funding-section sah-section" id="sah">
       <div className="container">
-        <div className="funding-header">
-          <span className="section-tag">{t.sahServices.tag}</span>
-          <h2>{t.sahServices.heading}</h2>
-          <p>{t.sahServices.description}</p>
-        </div>
-
         <div className="services-split">
           <div className="services-column">
             <div className="services-column-header">
-              <div className="column-icon ot-accent">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <rect x="4" y="4" width="16" height="16" rx="4" stroke="currentColor" strokeWidth="1.5" />
-                  <path d="M12 8v8M8 12h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                </svg>
-              </div>
               <h3>{t.sahServices.ot}</h3>
             </div>
 
@@ -69,12 +57,6 @@ export default function SahServices() {
 
           <div className="services-column">
             <div className="services-column-header">
-              <div className="column-icon osteo-accent">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <circle cx="12" cy="12" r="8" stroke="currentColor" strokeWidth="1.5" />
-                  <path d="M12 7c-2 1.5-3 3.5-3 5s1 3.5 3 5c2-1.5 3-3.5 3-5s-1-3.5-3-5z" stroke="currentColor" strokeWidth="1.5" />
-                </svg>
-              </div>
               <h3>{t.sahServices.osteo}</h3>
             </div>
 

@@ -5,11 +5,11 @@ import { useTranslation } from '@/i18n/useTranslation'
 interface SubPageHeroProps {
   logo?: string
   logoAlt?: string
-  icon?: 'ot' | 'osteo'
   translationKey: 'ndisPage' | 'sahPage' | 'otPage' | 'osteoPage'
+  showNdisNotice?: boolean
 }
 
-export default function SubPageHero({ logo, logoAlt, icon, translationKey }: SubPageHeroProps) {
+export default function SubPageHero({ logo, logoAlt, translationKey, showNdisNotice }: SubPageHeroProps) {
   const { t } = useTranslation()
   const page = t[translationKey]
 
@@ -28,23 +28,17 @@ export default function SubPageHero({ logo, logoAlt, icon, translationKey }: Sub
               <img src={logo} alt={logoAlt || ''} />
             </div>
           )}
-          {icon && (
-            <div className={`sub-page-hero-icon ${icon}-accent`}>
-              {icon === 'ot' ? (
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                  <rect x="8" y="8" width="32" height="32" rx="8" stroke="currentColor" strokeWidth="2" />
-                  <path d="M24 16v16M16 24h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                </svg>
-              ) : (
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                  <circle cx="24" cy="24" r="16" stroke="currentColor" strokeWidth="2" />
-                  <path d="M24 14c-4 3-6 7-6 10s2 7 6 10c4-3 6-7 6-10s-2-7-6-10z" stroke="currentColor" strokeWidth="2" />
-                </svg>
-              )}
-            </div>
-          )}
           <h1>{page.heading}</h1>
           <p>{page.description}</p>
+          {showNdisNotice && (
+            <div className="funding-notice hero-notice">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <circle cx="10" cy="10" r="9" stroke="currentColor" strokeWidth="1.5" />
+                <path d="M10 6v5M10 13.5v.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
+              <span>{t.ndisServices.notice}</span>
+            </div>
+          )}
         </div>
       </div>
     </section>

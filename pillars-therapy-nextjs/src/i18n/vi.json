@@ -5,6 +5,7 @@
     "supportAtHome": "Support at Home",
     "about": "Giới Thiệu",
     "contactUs": "Liên Hệ",
+    "referralForm": "Mẫu Giới Thiệu",
     "accessibility": "Hỗ Trợ Tiếp Cận"
   },
   "hero": {
@@ -99,6 +100,10 @@
         "title": "Đánh Giá Xe Lăn Phức Tạp",
         "description": "Đánh giá chuyên sâu cho xe lăn thủ công và xe lăn điện, bao gồm ghế ngồi và tư thế. Chúng tôi làm việc cùng bạn và nhà cung cấp thiết bị để đảm bảo sự thoải mái, chức năng và khả năng di chuyển tối ưu."
       },
+      "vehicleMod": {
+        "title": "Đánh Giá Cải Tạo Phương Tiện",
+        "description": "Chúng tôi đánh giá nhu cầu cải tạo phương tiện của bạn để hỗ trợ việc lái xe hoặc vận chuyển hành khách an toàn và độc lập. Các chuyên viên vật lý trị liệu cung cấp báo cáo và khuyến nghị chi tiết về việc điều chỉnh phương tiện, phối hợp với các chuyên gia cải tạo để đảm bảo giải pháp phù hợp cho nhu cầu di chuyển của bạn."
+      },
       "painNdis": {
         "title": "Quản Lý Đau",
         "description": "Điều trị nắn chỉnh xương trực tiếp tại nhà bạn — chúng tôi đến tận nơi và mang theo đầy đủ dụng cụ cần thiết. Các chuyên viên nắn chỉnh xương của chúng tôi xử lý đau cơ xương khớp, cải thiện khả năng vận động và hỗ trợ sức khỏe tổng thể của bạn với các kế hoạch quản lý cá nhân hóa phù hợp với tình trạng và mục tiêu của bạn."
@@ -191,7 +196,8 @@
       "Đội ngũ Pillars Therapy",
       "Cười vui cùng Mary",
       "Trò chuyện cùng John"
-    ]
+    ],
+    "referralButton": "Gửi Giới Thiệu Trực Tuyến"
   },
   "contact": {
     "tag": "Bắt Đầu Ngay",
@@ -225,6 +231,7 @@
       "at": "Đánh Giá Công Nghệ Hỗ Trợ",
       "sda-sil": "Đơn Xin SDA/SIL",
       "wheelchair": "Đánh Giá Xe Lăn",
+      "vehicle-mod": "Đánh Giá Cải Tạo Phương Tiện",
       "pain": "Quản Lý Đau",
       "exercise": "Chương Trình Tập Luyện",
       "chronic": "Quản Lý Bệnh Mạn Tính",
@@ -251,6 +258,8 @@
     "contactHeading": "Liên Hệ",
     "sendEnquiry": "Gửi Yêu Cầu",
     "serviceArea": "Phục vụ toàn khu vực Metro Melbourne",
+    "acknowledgement": "Pillars Therapy ghi nhận các Chủ nhân Truyền thống của vùng đất, bầu trời và dòng nước, đồng thời bày tỏ sự kính trọng đối với các Bô lão trong quá khứ và hiện tại. Chúng tôi ghi nhận tất cả người dân Thổ dân và Dân đảo Eo biển Torres cùng văn hóa, di sản và quyền tự quyết của họ.",
+    "inclusivity": "Tại Pillars Therapy, mọi người đều thuộc về nơi đây. Dịch vụ của chúng tôi chào đón mọi người thuộc mọi hoàn cảnh, khả năng, bản dạng và trải nghiệm sống. Tại đây, bạn sẽ được tôn trọng, thấu hiểu và hỗ trợ \u2013 đúng như con người bạn.",
     "abn": "ABN 56 454 434 878",
     "copyright": "© 2026 Pillars Therapy. Bảo lưu mọi quyền."
   },

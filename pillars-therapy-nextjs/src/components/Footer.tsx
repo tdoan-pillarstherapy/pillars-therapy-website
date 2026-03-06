@@ -39,6 +39,10 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        <div className="footer-acknowledgement">
+          <p>{t.footer.acknowledgement}</p>
+          <p>{t.footer.inclusivity}</p>
+        </div>
         <div className="footer-bottom">
           <p>{t.footer.abn}</p>
           <p>{t.footer.copyright}</p>

@@ -7,6 +7,7 @@ export interface Translations {
     supportAtHome: string
     about: string
     contactUs: string
+    referralForm: string
     accessibility: string
   }
   hero: {
@@ -86,6 +87,7 @@ export interface Translations {
     deliveryValue: string
     deliveryLabel: string
     captions: string[]
+    referralButton: string
   }
   contact: {
     tag: string
@@ -129,6 +131,8 @@ export interface Translations {
     contactHeading: string
     sendEnquiry: string
     serviceArea: string
+    acknowledgement: string
+    inclusivity: string
     abn: string
     copyright: string
   }

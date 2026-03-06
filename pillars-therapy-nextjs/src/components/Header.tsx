@@ -100,6 +100,9 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+            <a href="https://2k9chb2unr5.typeform.com/to/vPGnhCcU#name=xxxxx&product_id=xxxxx" target="_blank" rel="noopener noreferrer" className="btn btn-outline nav-cta nav-referral" onClick={closeMenu}>
+              {t.header.referralForm}
+            </a>
             <a href={isHome ? '#contact' : '/#contact'} className="btn btn-primary nav-cta" onClick={closeMenu}>
               {t.header.contactUs}
             </a>
