@@ -135,7 +135,7 @@ export default function NdisServices() {
               </div>
               <div className="service-text">
                 <h4>Pain Management</h4>
-                <p>Hands-on osteopathic treatment to address musculoskeletal pain, improve mobility, and support your overall wellbeing. Our osteopaths develop personalised management plans tailored to your condition and goals.</p>
+                <p>Hands-on osteopathic treatment delivered in your home — we travel to you and bring everything we need. Our osteopaths address musculoskeletal pain, improve mobility, and support your overall wellbeing with personalised management plans tailored to your condition and goals.</p>
               </div>
             </div>
 

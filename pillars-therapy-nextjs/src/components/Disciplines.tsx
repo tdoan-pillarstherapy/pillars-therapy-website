@@ -33,7 +33,7 @@ export default function Disciplines() {
               </svg>
             </div>
             <h3>Osteopathy</h3>
-            <p>Our osteopaths take a whole-body approach to pain relief and movement. Through hands-on treatment, tailored exercise programs, and ongoing management plans, we help you move better and feel better.</p>
+            <p>Our osteopaths take a whole-body approach to pain relief and movement. We travel to your home and bring everything we need — through hands-on treatment, tailored exercise programs, and ongoing management plans, we help you move better and feel better.</p>
             <ul className="discipline-list">
               <li>Pain Management</li>
               <li>Exercise Programs</li>

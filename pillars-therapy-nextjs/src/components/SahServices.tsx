@@ -98,7 +98,7 @@ export default function SahServices() {
               </div>
               <div className="service-text">
                 <h4>Pain Management</h4>
-                <p>Hands-on osteopathic treatment to manage musculoskeletal pain and improve quality of life. Our osteopaths create personalised plans to address your specific needs.</p>
+                <p>Hands-on osteopathic treatment delivered in your home — we travel to you and bring everything we need. Our osteopaths manage musculoskeletal pain and improve quality of life with personalised plans to address your specific needs.</p>
               </div>
             </div>
 
