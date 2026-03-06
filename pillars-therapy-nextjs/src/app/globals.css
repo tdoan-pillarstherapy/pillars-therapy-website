@@ -1761,6 +1761,36 @@ html[data-locale="zh-CN"] body {
 html[data-locale="zh-TW"] body {
   font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang TC', 'Microsoft JhengHei', 'Noto Sans TC', sans-serif;
 }
+html[data-locale="el"] body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif;
+}
+html[data-locale="hi"] body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans Devanagari', 'Mangal', sans-serif;
+}
+html[data-locale="ar"] body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans Arabic', 'Segoe UI', 'Tahoma', sans-serif;
+  direction: rtl;
+}
+html[data-locale="pa"] body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans Gurmukhi', 'Raavi', sans-serif;
+}
+html[data-locale="ta"] body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans Tamil', 'Latha', sans-serif;
+}
+
+/* RTL layout adjustments for Arabic */
+html[data-locale="ar"] .nav { direction: ltr; }
+html[data-locale="ar"] .header-inner { direction: ltr; }
+html[data-locale="ar"] .hero .container { direction: rtl; }
+html[data-locale="ar"] .about-grid { direction: rtl; }
+html[data-locale="ar"] .contact-grid { direction: rtl; }
+html[data-locale="ar"] .footer-grid { direction: rtl; }
+html[data-locale="ar"] .contact-row { direction: rtl; }
+html[data-locale="ar"] .service-item { direction: rtl; }
+html[data-locale="ar"] .pathway-card { direction: rtl; }
+html[data-locale="ar"] .discipline-card { direction: rtl; }
+html[data-locale="ar"] .discipline-list li { padding-left: 0; padding-right: var(--space-lg); }
+html[data-locale="ar"] .discipline-list li::before { left: auto; right: 0; }
 
 /* ===== ACCESSIBILITY PANEL ===== */
 
@@ -1972,8 +2002,9 @@ html[data-locale="zh-TW"] body {
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-lg);
   min-width: 160px;
+  max-height: 360px;
+  overflow-y: auto;
   z-index: 1050;
-  overflow: hidden;
 }
 
 .lang-option {

@@ -1,0 +1,130 @@
+{
+  "header": {
+    "services": "Servizi",
+    "ndis": "NDIS",
+    "supportAtHome": "Support at Home",
+    "about": "Chi Siamo",
+    "contactUs": "Contattaci",
+    "referralForm": "Modulo di Segnalazione",
+    "accessibility": "Accessibilità"
+  },
+  "hero": {
+    "tag": "Terapia Occupazionale e Osteopatia",
+    "headingStart": "Assistenza sanitaria che ti raggiunge dove ",
+    "headingEmphasis": "sei",
+    "subtitle": "Servizi di riabilitazione multidisciplinare erogati a domicilio e tramite Telehealth in tutta Metro Melbourne. Le aree regionali sono disponibili con un costo di viaggio aggiuntivo. Supporto per partecipanti NDIS, clienti Support at Home e privati.",
+    "ctaServices": "I Nostri Servizi",
+    "ctaContact": "Contattaci"
+  },
+  "pictureFrame": {
+    "caption": "Terapia umana e autentica",
+    "heroAlt": "Clienti anziani attivi che praticano sport e attività all'aperto"
+  },
+  "pathways": {
+    "tag": "Come Lavoriamo Con Te",
+    "heading": "Scegli il tuo percorso di finanziamento",
+    "description": "Forniamo servizi attraverso diversi canali di finanziamento. Seleziona il percorso che fa al caso tuo per scoprire cosa offriamo.",
+    "ndis": { "title": "NDIS", "description": "Partecipanti plan-managed e self-managed. Servizi completi di Terapia Occupazionale e Osteopatia.", "link": "Vedi Servizi NDIS" },
+    "sah": { "title": "Support at Home", "description": "Servizi sanitari alleati finanziati dal governo per anziani australiani idonei che vivono a casa.", "link": "Vedi Servizi SAH" },
+    "private": { "title": "Clienti Privati", "description": "Servizi di terapia occupazionale e osteopatia autofinanziati, disponibili per tutti.", "link": "Contattaci" }
+  },
+  "disciplines": {
+    "tag": "Le Nostre Discipline",
+    "heading": "Assistenza specialistica in due discipline",
+    "ot": { "title": "Terapia Occupazionale", "description": "I nostri terapisti occupazionali lavorano con te per superare gli ostacoli della vita quotidiana. Dalle valutazioni di guida alle modifiche abitative e alla tecnologia assistiva, ti aiutiamo a mantenere l'indipendenza e a partecipare pienamente alla vita.", "items": ["Valutazioni e Riabilitazione alla Guida", "Valutazioni Funzionali", "Valutazioni per Modifiche Abitative", "Valutazioni di Tecnologia Assistiva", "Domande SDA/SIL", "Valutazioni per Sedie a Rotelle"], "link": "Vedi Servizi di Terapia Occupazionale" },
+    "osteo": { "title": "Osteopatia", "description": "I nostri osteopati adottano un approccio globale al sollievo dal dolore e al movimento. Veniamo a casa tua e portiamo tutto il necessario — attraverso trattamenti manuali, programmi di esercizi personalizzati e piani di gestione continua, ti aiutiamo a muoverti meglio e a sentirti meglio.", "items": ["Gestione del Dolore", "Programmi di Esercizi", "Gestione delle Patologie Croniche", "Prevenzione delle Cadute"], "link": "Vedi Servizi di Osteopatia" }
+  },
+  "ndisServices": {
+    "tag": "Servizi NDIS",
+    "heading": "Servizi per partecipanti NDIS",
+    "descriptionParts": ["Lavoriamo con partecipanti NDIS ", "plan-managed", " e ", "self-managed", ". Si prega di notare che non assistiamo clienti gestiti dalla NDIA."],
+    "notice": "Solo partecipanti plan-managed e self-managed",
+    "ot": "Terapia Occupazionale",
+    "osteo": "Osteopatia",
+    "services": {
+      "driving": { "title": "Valutazioni di Guida", "description": "Servizi completi di valutazione della guida, incluse raccomandazioni per modifiche al veicolo, programmi di riabilitazione alla guida e valutazioni correlate come le valutazioni di guida VicRoads di Terapia Occupazionale. Aiutiamo i partecipanti a prendere la patente o a tornare a guidare in sicurezza." },
+      "functional": { "title": "Valutazioni Funzionali Iniziali e Complete", "description": "Le nostre valutazioni funzionali forniscono un'analisi dettagliata delle tue capacità attuali nelle attività quotidiane, mobilità, cura personale, comunicazione e partecipazione alla comunità. Queste valutazioni identificano i tuoi punti di forza, le sfide e i supporti necessari per raggiungere i tuoi obiettivi. Una valutazione funzionale completa costituisce la base del tuo piano NDIS e della terapia in corso." },
+      "homeMod": { "title": "Valutazioni per Modifiche Abitative", "description": "I nostri terapisti occupazionali valutano il tuo ambiente domestico per identificare modifiche che migliorino la sicurezza, l'accessibilità e l'indipendenza. Questo può includere l'installazione di rampe, modifiche al bagno come maniglioni, sedili doccia e sanitari accessibili, allargamento delle porte, installazione di corrimano, rampe per soglie e altre modifiche minori in tutta la casa per ridurre il rischio di cadute e supportare la vita quotidiana." },
+      "at": { "title": "Valutazioni di Tecnologia Assistiva (AT)", "description": "Valutiamo, testiamo e raccomandiamo tecnologie assistive e attrezzature per supportare la tua indipendenza. Dagli ausili per la vita quotidiana ai dispositivi assistivi complessi, abbiniamo la tecnologia giusta alle tue esigenze e ai tuoi obiettivi." },
+      "sdaSil": { "title": "Domande SDA/SIL", "description": "Assistiamo i partecipanti con le domande per Specialist Disability Accommodation (SDA) e Supported Independent Living (SIL), fornendo valutazioni dettagliate e relazioni a supporto delle tue esigenze abitative e di assistenza." },
+      "wheelchair": { "title": "Valutazioni Complesse per Sedie a Rotelle", "description": "Valutazioni specialistiche per sedie a rotelle manuali e motorizzate, inclusi seduta e posizionamento. Lavoriamo con te e con i fornitori di attrezzature per garantire il massimo comfort, funzionalità e mobilità." },
+      "vehicleMod": { "title": "Valutazioni per Modifiche al Veicolo", "description": "Valutiamo le tue esigenze di modifica del veicolo per supportare una guida sicura e indipendente o il trasporto passeggeri. I nostri terapisti occupazionali forniscono relazioni dettagliate e raccomandazioni per gli adattamenti del veicolo, collaborando con specialisti di modifiche per garantire le soluzioni giuste per le tue esigenze di mobilità." },
+      "painNdis": { "title": "Gestione del Dolore", "description": "Trattamento osteopatico manuale erogato a domicilio — veniamo da te e portiamo tutto il necessario. I nostri osteopati affrontano il dolore muscoloscheletrico, migliorano la mobilità e supportano il tuo benessere generale con piani di gestione personalizzati su misura per la tua condizione e i tuoi obiettivi." },
+      "exerciseNdis": { "title": "Programmi di Esercizi", "description": "Programmi di esercizi progettati individualmente che completano il tuo trattamento osteopatico. Focalizzati sul rafforzamento muscolare, il miglioramento della flessibilità e la prevenzione del ripetersi di dolore o infortuni." }
+    }
+  },
+  "sahServices": {
+    "tag": "Servizi Support at Home",
+    "heading": "Servizi per clienti Support at Home",
+    "description": "Servizi sanitari alleati finanziati dal governo per anziani australiani idonei, per aiutarti a rimanere indipendente e al sicuro nella tua casa.",
+    "ot": "Terapia Occupazionale",
+    "osteo": "Osteopatia",
+    "services": {
+      "drivingSah": { "title": "Valutazioni di Guida", "description": "Valutazione completa della guida, incluse raccomandazioni per modifiche al veicolo, riabilitazione alla guida e valutazioni di guida VicRoads di Terapia Occupazionale. Supportiamo gli anziani australiani a mantenere la loro indipendenza di guida in sicurezza." },
+      "initialSah": { "title": "Valutazioni Iniziali", "description": "Una valutazione approfondita delle tue attuali capacità funzionali, delle esigenze quotidiane e degli obiettivi. Questo informa il tuo piano di cura e identifica i supporti e gli interventi più utili per te." },
+      "homeModSah": { "title": "Valutazioni per Modifiche Abitative", "description": "Valutiamo la tua casa per identificare modifiche che migliorino la sicurezza e l'accessibilità. Questo include l'installazione di rampe, modifiche al bagno come maniglioni, sedili doccia e sanitari accessibili, corrimano, rampe per soglie e altre modifiche minori per ridurre il rischio di cadute e aiutarti a vivere comodamente a casa." },
+      "atSah": { "title": "Valutazioni di Tecnologia Assistiva (AT)", "description": "Valutazione e raccomandazione di attrezzature e dispositivi assistivi per supportare la tua indipendenza a casa, dagli ausili per la mobilità alle attrezzature per la vita quotidiana." },
+      "painSah": { "title": "Gestione del Dolore", "description": "Trattamento osteopatico manuale erogato a domicilio — veniamo da te e portiamo tutto il necessario. I nostri osteopati gestiscono il dolore muscoloscheletrico e migliorano la qualità della vita con piani personalizzati per affrontare le tue esigenze specifiche." },
+      "exerciseSah": { "title": "Programmi di Esercizi", "description": "Programmi di esercizi personalizzati per migliorare la forza, l'equilibrio e la mobilità. Progettati per completare il trattamento e aiutarti a rimanere attivo e indipendente a casa." },
+      "chronicSah": { "title": "Gestione delle Patologie Croniche", "description": "Cura osteopatica continuativa per condizioni come artrite, dolore cronico e disturbi muscoloscheletrici. Lavoriamo con te per gestire i sintomi, mantenere la mobilità e migliorare la tua qualità della vita nel tempo." },
+      "fallsSah": { "title": "Prevenzione delle Cadute", "description": "Valutazione dell'equilibrio, dell'andatura e dei fattori di rischio muscoloscheletrici per ridurre il rischio di cadute. I nostri osteopati identificano le aree di preoccupazione e forniscono trattamenti mirati ed esercizi per aiutarti a rimanere sicuro e fiducioso sulle tue gambe." }
+    }
+  },
+  "subPageHero": { "backHome": "Torna alla Home" },
+  "ndisPage": { "heading": "Servizi NDIS", "description": "Servizi completi di Terapia Occupazionale e Osteopatia per partecipanti NDIS plan-managed e self-managed." },
+  "sahPage": { "heading": "Servizi Support at Home", "description": "Servizi sanitari alleati finanziati dal governo per anziani australiani idonei, per aiutarti a rimanere indipendente e al sicuro nella tua casa." },
+  "otPage": { "heading": "Terapia Occupazionale", "description": "I nostri terapisti occupazionali lavorano con te per superare gli ostacoli della vita quotidiana. Dalle valutazioni di guida alle modifiche abitative e alla tecnologia assistiva, ti aiutiamo a mantenere l'indipendenza e a partecipare pienamente alla vita.", "ndisHeading": "Servizi di Terapia Occupazionale per Partecipanti NDIS", "sahHeading": "Servizi di Terapia Occupazionale per Clienti Support at Home" },
+  "osteoPage": { "heading": "Osteopatia", "description": "I nostri osteopati adottano un approccio globale al sollievo dal dolore e al movimento. Attraverso trattamenti manuali, programmi di esercizi personalizzati e piani di gestione continua, ti aiutiamo a muoverti meglio e a sentirti meglio.", "ndisHeading": "Osteopatia per Partecipanti NDIS", "sahHeading": "Osteopatia per Clienti Support at Home" },
+  "about": {
+    "tag": "Chi Siamo",
+    "headingStart": "Terapia ",
+    "handwrittenAccent": "umana e ",
+    "underlineWord": "autentica",
+    "paragraphs": [
+      "Pillars Therapy è un fornitore leader di servizi sanitari alleati che eroga servizi di riabilitazione multidisciplinare a domicilio e da remoto tramite Telehealth in tutta Metro Melbourne. Possiamo anche servire le aree regionali con un costo di viaggio aggiuntivo.",
+      "Il nostro team di terapisti occupazionali e osteopati è appassionato nell'aiutarti a raggiungere i tuoi obiettivi, che si tratti di tornare a guidare, modificare la tua casa per una maggiore accessibilità, gestire il dolore o rafforzare la forza e l'indipendenza.",
+      "Crediamo che tutti meritino un'assistenza reattiva, rispettosa e su misura per la propria vita. Per questo veniamo da te."
+    ],
+    "metroValue": "Metro Melbourne",
+    "metroLabel": "Area di servizio (regionale disponibile)",
+    "deliveryValue": "A domicilio e Telehealth",
+    "deliveryLabel": "Modalità di erogazione",
+    "captions": ["Il team di Pillars Therapy", "Ridendo con Mary", "Chiacchierando con John"],
+    "referralButton": "Invia una Segnalazione Online"
+  },
+  "contact": {
+    "tag": "Inizia Ora",
+    "heading": "Pronto per iniziare?",
+    "description": "Che tu sia un partecipante NDIS, un cliente Support at Home o alla ricerca di servizi privati, siamo qui per aiutarti. Contattaci per prenotare una valutazione o fare una domanda.",
+    "serviceArea": "Servizio in tutta Metro Melbourne"
+  },
+  "contactForm": {
+    "nameLabel": "Nome", "namePlaceholder": "Il tuo nome completo",
+    "emailLabel": "Email", "emailPlaceholder": "tua@email.com",
+    "phoneLabel": "Telefono", "phonePlaceholder": "04XX XXX XXX",
+    "fundingLabel": "Tipo di Finanziamento", "fundingPlaceholder": "Seleziona il tipo di finanziamento",
+    "fundingOptions": { "ndis-plan": "NDIS - Plan Managed", "ndis-self": "NDIS - Self Managed", "sah": "Support at Home", "private": "Privato" },
+    "serviceLabel": "Servizio Richiesto", "servicePlaceholder": "Seleziona un servizio",
+    "otGroup": "Terapia Occupazionale", "osteoGroup": "Osteopatia",
+    "serviceOptions": { "driving": "Valutazioni di Guida", "functional": "Valutazioni Funzionali", "home-mod": "Valutazioni per Modifiche Abitative", "at": "Valutazioni di Tecnologia Assistiva", "sda-sil": "Domande SDA/SIL", "wheelchair": "Valutazioni per Sedie a Rotelle", "vehicle-mod": "Valutazioni per Modifiche al Veicolo", "pain": "Gestione del Dolore", "exercise": "Programmi di Esercizi", "chronic": "Gestione delle Patologie Croniche", "falls": "Prevenzione delle Cadute" },
+    "messageLabel": "Messaggio", "messagePlaceholder": "Dicci un po' di cosa hai bisogno...",
+    "submit": "Invia Richiesta", "submitting": "Invio in corso...",
+    "thankYouTitle": "Grazie!", "thankYouMessage": "La tua richiesta è stata ricevuta. Ti contatteremo entro 1–2 giorni lavorativi.",
+    "errorGeneric": "Qualcosa è andato storto. Per favore riprova.",
+    "errorConnection": "Impossibile connettersi al server. Per favore riprova o inviaci un'email direttamente a contact@pillarstherapy.com.au"
+  },
+  "footer": {
+    "brandDescription": "Servizi sanitari alleati multidisciplinari erogati a domicilio in tutta Metro Melbourne.",
+    "servicesHeading": "Servizi", "ndisServices": "Servizi NDIS", "supportAtHome": "Support at Home", "allServices": "Tutti i Servizi",
+    "disciplinesHeading": "Discipline", "ot": "Terapia Occupazionale", "osteo": "Osteopatia",
+    "contactHeading": "Contatti", "sendEnquiry": "Invia una Richiesta", "serviceArea": "Servizio in tutta Metro Melbourne",
+    "acknowledgement": "Pillars Therapy riconosce i Custodi Tradizionali delle terre, dei cieli e delle vie d'acqua e rende omaggio agli Anziani passati e presenti. Riconosciamo tutti i popoli Aborigeni e delle Isole dello Stretto di Torres e la loro cultura, il loro patrimonio e il loro diritto all'autodeterminazione.",
+    "inclusivity": "Da Pillars Therapy, tutti sono i benvenuti. I nostri servizi accolgono persone di ogni provenienza, abilità, identità e vissuto. Qui sarai rispettato, compreso e supportato — esattamente come sei.",
+    "abn": "ABN 56 454 434 878",
+    "copyright": "© 2026 Pillars Therapy. Tutti i diritti riservati."
+  },
+  "languageToggle": {
+    "label": "Lingua", "english": "English", "vietnamese": "Tiếng Việt", "mandarin": "中文（简体）", "cantonese": "中文（繁體）",
+    "greek": "Ελληνικά", "italian": "Italiano", "hindi": "हिन्दी", "arabic": "العربية", "punjabi": "ਪੰਜਾਬੀ", "filipino": "Filipino", "tamil": "தமிழ்"
+  }
+}

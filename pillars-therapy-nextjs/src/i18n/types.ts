@@ -1,4 +1,4 @@
-export type Locale = 'en' | 'vi' | 'zh-CN' | 'zh-TW'
+export type Locale = 'en' | 'vi' | 'zh-CN' | 'zh-TW' | 'el' | 'it' | 'hi' | 'ar' | 'pa' | 'fil' | 'ta'
 
 export interface Translations {
   header: {
@@ -142,5 +142,12 @@ export interface Translations {
     vietnamese: string
     mandarin: string
     cantonese: string
+    greek: string
+    italian: string
+    hindi: string
+    arabic: string
+    punjabi: string
+    filipino: string
+    tamil: string
   }
 }

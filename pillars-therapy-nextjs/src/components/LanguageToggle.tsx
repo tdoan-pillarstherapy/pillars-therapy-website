@@ -9,6 +9,13 @@ const languages: { code: Locale; label: string; short: string }[] = [
   { code: 'vi', label: 'Tiếng Việt', short: 'VI' },
   { code: 'zh-CN', label: '中文（简体）', short: '简' },
   { code: 'zh-TW', label: '中文（繁體）', short: '繁' },
+  { code: 'el', label: 'Ελληνικά', short: 'ΕΛ' },
+  { code: 'it', label: 'Italiano', short: 'IT' },
+  { code: 'hi', label: 'हिन्दी', short: 'हि' },
+  { code: 'ar', label: 'العربية', short: 'عر' },
+  { code: 'pa', label: 'ਪੰਜਾਬੀ', short: 'ਪੰ' },
+  { code: 'fil', label: 'Filipino', short: 'FIL' },
+  { code: 'ta', label: 'தமிழ்', short: 'த' },
 ]
 
 export default function LanguageToggle() {

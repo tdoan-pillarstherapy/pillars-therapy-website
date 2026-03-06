@@ -268,6 +268,13 @@
     "english": "English",
     "vietnamese": "Ti\u1ebfng Vi\u1ec7t",
     "mandarin": "\u4e2d\u6587\uff08\u7b80\u4f53\uff09",
-    "cantonese": "\u4e2d\u6587\uff08\u7e41\u9ad4\uff09"
+    "cantonese": "\u4e2d\u6587\uff08\u7e41\u9ad4\uff09",
+    "greek": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
+    "italian": "Italiano",
+    "hindi": "\u0939\u093f\u0928\u094d\u0926\u0940",
+    "arabic": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+    "punjabi": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40",
+    "filipino": "Filipino",
+    "tamil": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd"
   }
 }

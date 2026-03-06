@@ -6,12 +6,26 @@ import en from '@/i18n/en.json'
 import vi from '@/i18n/vi.json'
 import zhCN from '@/i18n/zh-CN.json'
 import zhTW from '@/i18n/zh-TW.json'
+import el from '@/i18n/el.json'
+import it from '@/i18n/it.json'
+import hi from '@/i18n/hi.json'
+import ar from '@/i18n/ar.json'
+import pa from '@/i18n/pa.json'
+import fil from '@/i18n/fil.json'
+import ta from '@/i18n/ta.json'
 
 const allTranslations: Record<Locale, Translations> = {
   en: en as unknown as Translations,
   vi: vi as unknown as Translations,
   'zh-CN': zhCN as unknown as Translations,
   'zh-TW': zhTW as unknown as Translations,
+  el: el as unknown as Translations,
+  it: it as unknown as Translations,
+  hi: hi as unknown as Translations,
+  ar: ar as unknown as Translations,
+  pa: pa as unknown as Translations,
+  fil: fil as unknown as Translations,
+  ta: ta as unknown as Translations,
 }
 
 const langMap: Record<Locale, string> = {
@@ -19,6 +33,13 @@ const langMap: Record<Locale, string> = {
   vi: 'vi',
   'zh-CN': 'zh-Hans',
   'zh-TW': 'zh-Hant',
+  el: 'el',
+  it: 'it',
+  hi: 'hi',
+  ar: 'ar',
+  pa: 'pa',
+  fil: 'fil',
+  ta: 'ta',
 }
 
 interface LanguageContextType {
