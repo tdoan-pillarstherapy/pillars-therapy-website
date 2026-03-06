@@ -8,7 +8,7 @@ export default function SahServices() {
   return (
     <section className="funding-section sah-section" id="sah">
       <div className="container">
-        <div className="services-split">
+        <div className="services-split equal-columns">
           <div className="services-column">
             <div className="services-column-header">
               <h3>{t.sahServices.ot}</h3>
