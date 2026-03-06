@@ -12,6 +12,13 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState<string | null>(null)
+  const [currentPath, setCurrentPath] = useState('/')
+
+  useEffect(() => {
+    setCurrentPath(window.location.pathname)
+  }, [])
+
+  const isHome = currentPath === '/'
 
   useEffect(() => {
     function handleScroll() {
@@ -24,6 +31,8 @@ export default function Header() {
   }, [])
 
   useEffect(() => {
+    if (!isHome) return
+
     function highlightNav() {
       const scrollY = window.scrollY + 120
       const sections = document.querySelectorAll('section[id]')
@@ -46,7 +55,7 @@ export default function Header() {
     window.addEventListener('scroll', highlightNav, { passive: true })
     highlightNav()
     return () => window.removeEventListener('scroll', highlightNav)
-  }, [])
+  }, [isHome])
 
   const toggleMenu = useCallback(() => {
     setIsMenuOpen((prev) => !prev)
@@ -57,17 +66,27 @@ export default function Header() {
   }, [])
 
   const navLinks = [
-    { href: '#services', label: t.header.services },
-    { href: '#ndis', label: t.header.ndis },
-    { href: '#sah', label: t.header.supportAtHome },
-    { href: '#about', label: t.header.about },
+    { href: isHome ? '#services' : '/#services', label: t.header.services },
+    { href: '/ndis', label: t.header.ndis },
+    { href: '/support-at-home', label: t.header.supportAtHome },
+    { href: isHome ? '#about' : '/#about', label: t.header.about },
   ]
+
+  function isLinkActive(href: string): boolean {
+    if (href.startsWith('/') && !href.startsWith('/#')) {
+      return currentPath === href
+    }
+    if (href.startsWith('#') && isHome) {
+      return activeSection === href.slice(1)
+    }
+    return false
+  }
 
   return (
     <>
       <header className={`header${isScrolled ? ' scrolled' : ''}`} id="header">
         <div className="container header-inner">
-          <a href="#" className="logo">
+          <a href="/" className="logo">
             <img src="/assets/PillarsTherapy_Logo_PositiveGrad.png" alt="Pillars Therapy" className="logo-img" />
           </a>
           <nav className={`nav${isMenuOpen ? ' open' : ''}`} id="nav">
@@ -75,13 +94,13 @@ export default function Header() {
               <a
                 key={link.href}
                 href={link.href}
-                className={`nav-link${activeSection === link.href.slice(1) ? ' active' : ''}`}
+                className={`nav-link${isLinkActive(link.href) ? ' active' : ''}`}
                 onClick={closeMenu}
               >
                 {link.label}
               </a>
             ))}
-            <a href="#contact" className="btn btn-primary nav-cta" onClick={closeMenu}>
+            <a href={isHome ? '#contact' : '/#contact'} className="btn btn-primary nav-cta" onClick={closeMenu}>
               {t.header.contactUs}
             </a>
           </nav>

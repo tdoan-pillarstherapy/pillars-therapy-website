@@ -52,7 +52,8 @@
         "Assistive Technology Assessments",
         "SDA/SIL Applications",
         "Wheelchair Assessments"
-      ]
+      ],
+      "link": "View OT Services"
     },
     "osteo": {
       "title": "Osteopathy",
@@ -62,7 +63,8 @@
         "Exercise Programs",
         "Chronic Condition Management",
         "Falls Prevention"
-      ]
+      ],
+      "link": "View Osteopathy Services"
     }
   },
   "ndisServices": {
@@ -147,6 +149,29 @@
         "description": "Assessment of balance, gait, and musculoskeletal risk factors to reduce your risk of falls. Our osteopaths identify areas of concern and provide targeted treatment and exercises to help you stay safe and confident on your feet."
       }
     }
+  },
+  "subPageHero": {
+    "backHome": "Back to Home"
+  },
+  "ndisPage": {
+    "heading": "NDIS Services",
+    "description": "Comprehensive Occupational Therapy and Osteopathy services for plan-managed and self-managed NDIS participants."
+  },
+  "sahPage": {
+    "heading": "Support at Home Services",
+    "description": "Government-funded allied health services for eligible older Australians, helping you stay independent and safe in your own home."
+  },
+  "otPage": {
+    "heading": "Occupational Therapy",
+    "description": "Our occupational therapists work with you to overcome barriers to everyday living. From driving assessments to home modifications and assistive technology, we help you maintain independence and participate fully in life.",
+    "ndisHeading": "OT Services for NDIS Participants",
+    "sahHeading": "OT Services for Support at Home Clients"
+  },
+  "osteoPage": {
+    "heading": "Osteopathy",
+    "description": "Our osteopaths take a whole-body approach to pain relief and movement. Through hands-on treatment, tailored exercise programs, and ongoing management plans, we help you move better and feel better.",
+    "ndisHeading": "Osteopathy for NDIS Participants",
+    "sahHeading": "Osteopathy for Support at Home Clients"
   },
   "about": {
     "tag": "About Us",

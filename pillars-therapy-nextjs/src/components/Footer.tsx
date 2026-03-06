@@ -18,16 +18,16 @@ export default function Footer() {
           <div className="footer-col">
             <h4>{t.footer.servicesHeading}</h4>
             <ul>
-              <li><a href="#ndis">{t.footer.ndisServices}</a></li>
-              <li><a href="#sah">{t.footer.supportAtHome}</a></li>
-              <li><a href="#services">{t.footer.allServices}</a></li>
+              <li><a href="/ndis">{t.footer.ndisServices}</a></li>
+              <li><a href="/support-at-home">{t.footer.supportAtHome}</a></li>
+              <li><a href="/#services">{t.footer.allServices}</a></li>
             </ul>
           </div>
           <div className="footer-col">
             <h4>{t.footer.disciplinesHeading}</h4>
             <ul>
-              <li><a href="#services">{t.footer.ot}</a></li>
-              <li><a href="#services">{t.footer.osteo}</a></li>
+              <li><a href="/occupational-therapy">{t.footer.ot}</a></li>
+              <li><a href="/osteopathy">{t.footer.osteo}</a></li>
             </ul>
           </div>
           <div className="footer-col">

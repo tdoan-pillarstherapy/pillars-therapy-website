@@ -14,7 +14,7 @@ export default function Pathways() {
           <p>{t.pathways.description}</p>
         </div>
         <div className="pathway-cards">
-          <a href="#ndis" className="pathway-card pathway-ndis">
+          <a href="/ndis" className="pathway-card pathway-ndis">
             <div className="pathway-icon">
               <img src="/assets/ndis-logo.png" alt="NDIS" className="pathway-logo" />
             </div>
@@ -22,7 +22,7 @@ export default function Pathways() {
             <p>{t.pathways.ndis.description}</p>
             <span className="pathway-link">{t.pathways.ndis.link} &rarr;</span>
           </a>
-          <a href="#sah" className="pathway-card pathway-sah">
+          <a href="/support-at-home" className="pathway-card pathway-sah">
             <div className="pathway-icon">
               <img src="/assets/support-at-home-logo.jpeg" alt="Support at Home" className="pathway-logo" />
             </div>

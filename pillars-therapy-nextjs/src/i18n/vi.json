@@ -52,7 +52,8 @@
         "Đánh Giá Công Nghệ Hỗ Trợ",
         "Đơn Xin SDA/SIL",
         "Đánh Giá Xe Lăn"
-      ]
+      ],
+      "link": "Xem Dịch vụ OT"
     },
     "osteo": {
       "title": "Nắn Chỉnh Xương",
@@ -62,7 +63,8 @@
         "Chương Trình Tập Luyện",
         "Quản Lý Bệnh Mạn Tính",
         "Phòng Ngừa Té Ngã"
-      ]
+      ],
+      "link": "Xem Dịch vụ Nắn xương"
     }
   },
   "ndisServices": {
@@ -147,6 +149,29 @@
         "description": "Đánh giá thăng bằng, dáng đi và các yếu tố nguy cơ cơ xương khớp để giảm nguy cơ té ngã của bạn. Các chuyên viên nắn chỉnh xương của chúng tôi xác định các vấn đề cần quan tâm và cung cấp điều trị và bài tập có mục tiêu để giúp bạn an toàn và tự tin trên đôi chân của mình."
       }
     }
+  },
+  "subPageHero": {
+    "backHome": "Quay lại Trang chủ"
+  },
+  "ndisPage": {
+    "heading": "Dịch vụ NDIS",
+    "description": "Dịch vụ Trị liệu Nghề nghiệp và Nắn xương toàn diện cho người tham gia NDIS tự quản lý và quản lý theo kế hoạch."
+  },
+  "sahPage": {
+    "heading": "Dịch vụ Hỗ trợ tại Nhà",
+    "description": "Dịch vụ sức khỏe đồng minh do chính phủ tài trợ cho người Úc lớn tuổi đủ điều kiện, giúp bạn sống độc lập và an toàn tại nhà."
+  },
+  "otPage": {
+    "heading": "Trị liệu Nghề nghiệp",
+    "description": "Các nhà trị liệu nghề nghiệp của chúng tôi làm việc cùng bạn để vượt qua các rào cản trong cuộc sống hàng ngày. Từ đánh giá lái xe đến sửa đổi nhà ở và công nghệ hỗ trợ, chúng tôi giúp bạn duy trì sự độc lập và tham gia đầy đủ vào cuộc sống.",
+    "ndisHeading": "Dịch vụ OT cho Người tham gia NDIS",
+    "sahHeading": "Dịch vụ OT cho Khách hàng Hỗ trợ tại Nhà"
+  },
+  "osteoPage": {
+    "heading": "Nắn xương",
+    "description": "Các bác sĩ nắn xương của chúng tôi áp dụng phương pháp toàn thân để giảm đau và cải thiện vận động. Thông qua điều trị thực hành, chương trình tập luyện phù hợp và kế hoạch quản lý liên tục, chúng tôi giúp bạn vận động tốt hơn và cảm thấy khỏe hơn.",
+    "ndisHeading": "Nắn xương cho Người tham gia NDIS",
+    "sahHeading": "Nắn xương cho Khách hàng Hỗ trợ tại Nhà"
   },
   "about": {
     "tag": "Giới Thiệu",

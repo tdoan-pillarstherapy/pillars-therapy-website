@@ -32,8 +32,8 @@ export interface Translations {
   disciplines: {
     tag: string
     heading: string
-    ot: { title: string; description: string; items: string[] }
-    osteo: { title: string; description: string; items: string[] }
+    ot: { title: string; description: string; items: string[]; link: string }
+    osteo: { title: string; description: string; items: string[]; link: string }
   }
   ndisServices: {
     tag: string
@@ -51,6 +51,29 @@ export interface Translations {
     ot: string
     osteo: string
     services: Record<string, { title: string; description: string }>
+  }
+  subPageHero: {
+    backHome: string
+  }
+  ndisPage: {
+    heading: string
+    description: string
+  }
+  sahPage: {
+    heading: string
+    description: string
+  }
+  otPage: {
+    heading: string
+    description: string
+    ndisHeading: string
+    sahHeading: string
+  }
+  osteoPage: {
+    heading: string
+    description: string
+    ndisHeading: string
+    sahHeading: string
   }
   about: {
     tag: string

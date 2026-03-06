@@ -27,6 +27,7 @@ export default function Disciplines() {
                 <li key={i}>{item}</li>
               ))}
             </ul>
+            <a href="/occupational-therapy" className="discipline-link">{t.disciplines.ot.link} &rarr;</a>
           </div>
           <div className="discipline-card">
             <div className="discipline-icon osteo-icon">
@@ -42,6 +43,7 @@ export default function Disciplines() {
                 <li key={i}>{item}</li>
               ))}
             </ul>
+            <a href="/osteopathy" className="discipline-link">{t.disciplines.osteo.link} &rarr;</a>
           </div>
         </div>
       </div>

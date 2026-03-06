@@ -3,8 +3,6 @@ import Hero from '@/components/Hero'
 import SectionDivider from '@/components/SectionDivider'
 import Pathways from '@/components/Pathways'
 import Disciplines from '@/components/Disciplines'
-import NdisServices from '@/components/NdisServices'
-import SahServices from '@/components/SahServices'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -18,8 +16,6 @@ export default function Home() {
       <Pathways />
       <SectionDivider pathD="M0,60 C480,0 960,80 1440,20 L1440,80 L0,80 Z" fill="#f0f7ff" />
       <Disciplines />
-      <NdisServices />
-      <SahServices />
       <About />
       <SectionDivider pathD="M0,30 C320,70 720,10 1440,50 L1440,80 L0,80 Z" fill="#e6f1fb" />
       <Contact />
