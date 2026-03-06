@@ -1,0 +1,239 @@
+{
+  "header": {
+    "services": "服务项目",
+    "ndis": "NDIS",
+    "supportAtHome": "居家支持",
+    "about": "关于我们",
+    "contactUs": "联系我们",
+    "accessibility": "无障碍"
+  },
+  "hero": {
+    "tag": "职业治疗与整骨疗法",
+    "headingStart": "上门提供的专业健康",
+    "headingEmphasis": "服务",
+    "subtitle": "我们在墨尔本都市区提供多学科康复服务，包括上门治疗和远程医疗。偏远地区需额外支付交通费用。服务对象包括NDIS参与者、居家支持客户及自费个人。",
+    "ctaServices": "我们的服务",
+    "ctaContact": "联系我们"
+  },
+  "pictureFrame": {
+    "caption": "真诚而温暖的治疗",
+    "heroAlt": "活跃的老年客户享受运动和户外活动"
+  },
+  "pathways": {
+    "tag": "合作方式",
+    "heading": "选择您的资助途径",
+    "description": "我们通过多种资助渠道提供服务。请选择适用于您的途径，了解我们的服务内容。",
+    "ndis": {
+      "title": "NDIS",
+      "description": "适用于计划管理和自我管理的参与者。提供全面的职业治疗和整骨疗法服务。",
+      "link": "查看NDIS服务"
+    },
+    "sah": {
+      "title": "居家支持",
+      "description": "为符合条件的居家澳大利亚老年人提供政府资助的专职医疗服务。",
+      "link": "查看居家支持服务"
+    },
+    "private": {
+      "title": "自费客户",
+      "description": "面向所有人的自费职业治疗和整骨疗法服务。",
+      "link": "联系我们"
+    }
+  },
+  "disciplines": {
+    "tag": "专业学科",
+    "heading": "两大学科的专业护理",
+    "ot": {
+      "title": "职业治疗",
+      "description": "我们的职业治疗师与您合作，帮助您克服日常生活中的障碍。从驾驶评估到家居改造和辅助技术，我们帮助您保持独立性并充分参与生活。",
+      "items": [
+        "驾驶评估与康复",
+        "功能评估",
+        "家居改造评估",
+        "辅助技术评估",
+        "SDA/SIL申请",
+        "轮椅评估"
+      ]
+    },
+    "osteo": {
+      "title": "整骨疗法",
+      "description": "我们的整骨治疗师采用全身治疗方法来缓解疼痛和改善运动功能。我们上门服务并自带所有所需设备——通过手法治疗、个性化运动方案和持续管理计划，帮助您改善活动能力，提升生活质量。",
+      "items": [
+        "疼痛管理",
+        "运动方案",
+        "慢性疾病管理",
+        "跌倒预防"
+      ]
+    }
+  },
+  "ndisServices": {
+    "tag": "NDIS服务",
+    "heading": "面向NDIS参与者的服务",
+    "descriptionParts": ["我们为", "计划管理", "和", "自我管理", "的NDIS参与者提供服务。请注意，我们不为NDIA管理的客户提供服务。"],
+    "notice": "仅限计划管理和自我管理的参与者",
+    "ot": "职业治疗",
+    "osteo": "整骨疗法",
+    "services": {
+      "driving": {
+        "title": "驾驶评估",
+        "description": "全面的驾驶评估服务，包括车辆改装建议、驾驶康复训练以及相关的州级评估，例如VicRoads职业治疗驾驶评估。我们帮助参与者安全地开始或重新开始驾驶。"
+      },
+      "functional": {
+        "title": "初始及全面功能评估",
+        "description": "我们的功能评估对您在日常生活活动、行动能力、自我照护、沟通和社区参与等方面的当前能力进行详细评估。这些评估能够识别您的优势、挑战以及实现目标所需的支持。全面功能评估是制定NDIS计划和持续治疗方案的基础。"
+      },
+      "homeMod": {
+        "title": "家居改造评估",
+        "description": "我们的职业治疗师评估您的居家环境，找出能够提高安全性、无障碍性和独立性的改造方案。包括坡道安装、浴室改造（如扶手、淋浴座椅和无障碍设施）、加宽门道、安装扶手、门槛坡道以及其他减少跌倒风险和支持日常生活的小型改造。"
+      },
+      "at": {
+        "title": "辅助技术（AT）评估",
+        "description": "我们评估、试用并推荐辅助技术和设备，以支持您的独立生活。从日常生活辅助工具到复杂的辅助设备，我们根据您的需求和目标匹配合适的技术方案。"
+      },
+      "sdaSil": {
+        "title": "SDA/SIL申请",
+        "description": "我们协助参与者申请专家残障住宿（SDA）和支持性独立生活（SIL），提供详细的评估和报告以满足您的住房和支持需求。"
+      },
+      "wheelchair": {
+        "title": "复杂轮椅评估",
+        "description": "为手动和电动轮椅提供专业评估，包括座椅和体位摆放。我们与您和设备供应商合作，确保最佳的舒适度、功能性和移动性。"
+      },
+      "painNdis": {
+        "title": "疼痛管理",
+        "description": "在您家中提供手法整骨治疗——我们上门服务并自带所有所需设备。我们的整骨治疗师处理肌肉骨骼疼痛、改善活动能力，并通过根据您的病情和目标量身定制的个性化管理计划来支持您的整体健康。"
+      },
+      "exerciseNdis": {
+        "title": "运动方案",
+        "description": "为配合整骨治疗而个性化设计的运动方案。专注于增强力量、提高柔韧性，以及预防疼痛或损伤的复发。"
+      }
+    }
+  },
+  "sahServices": {
+    "tag": "居家支持服务",
+    "heading": "面向居家支持客户的服务",
+    "description": "为符合条件的澳大利亚老年人提供政府资助的专职医疗服务，帮助您在自己家中保持独立和安全。",
+    "ot": "职业治疗",
+    "osteo": "整骨疗法",
+    "services": {
+      "drivingSah": {
+        "title": "驾驶评估",
+        "description": "全面的驾驶评估，包括车辆改装建议、驾驶康复训练以及VicRoads职业治疗驾驶评估。我们帮助澳大利亚老年人安全地保持驾驶独立性。"
+      },
+      "initialSah": {
+        "title": "初始评估",
+        "description": "对您当前的功能能力、日常生活需求和目标进行全面评估。评估结果将用于制定您的护理计划，并确定最有益于您的支持和干预措施。"
+      },
+      "homeModSah": {
+        "title": "家居改造评估",
+        "description": "我们评估您的居家环境，提出改善安全性和无障碍性的改造建议。包括坡道安装、浴室改造（如扶手、淋浴座椅和无障碍设施）、扶手、门槛坡道以及其他减少跌倒风险、帮助您舒适居家生活的小型改造。"
+      },
+      "atSah": {
+        "title": "辅助技术（AT）评估",
+        "description": "评估并推荐设备和辅助工具，以支持您在家中的独立生活，从助行器具到日常生活设备。"
+      },
+      "painSah": {
+        "title": "疼痛管理",
+        "description": "在您家中提供手法整骨治疗——我们上门服务并自带所有所需设备。我们的整骨治疗师管理肌肉骨骼疼痛，通过个性化方案满足您的具体需求，提升生活质量。"
+      },
+      "exerciseSah": {
+        "title": "运动方案",
+        "description": "量身定制的运动方案，旨在增强力量、改善平衡和活动能力。方案设计配合治疗，帮助您在家中保持活跃和独立。"
+      },
+      "chronicSah": {
+        "title": "慢性疾病管理",
+        "description": "为关节炎、慢性疼痛和肌肉骨骼疾病等提供持续的整骨治疗。我们与您合作管理症状、维持活动能力，并随时间推移提升您的生活质量。"
+      },
+      "fallsSah": {
+        "title": "跌倒预防",
+        "description": "评估平衡、步态和肌肉骨骼风险因素，以降低您的跌倒风险。我们的整骨治疗师识别问题领域，并提供针对性治疗和运动，帮助您安全自信地行走。"
+      }
+    }
+  },
+  "about": {
+    "tag": "关于我们",
+    "headingStart": "真诚",
+    "handwrittenAccent": "温暖的",
+    "underlineWord": "治疗",
+    "paragraphs": [
+      "Pillars Therapy是一家领先的专职医疗服务提供商，在墨尔本都市区通过上门服务和远程医疗提供多学科康复服务。我们也可以为偏远地区提供服务，需额外支付交通费用。",
+      "我们的职业治疗师和整骨治疗师团队热衷于帮助您实现目标，无论是重新开始驾驶、改造家居以提高无障碍性、管理疼痛，还是增强力量和独立性。",
+      "我们相信每个人都值得获得及时、尊重且量身定制的护理。这就是我们上门服务的原因。"
+    ],
+    "metroValue": "墨尔本都市区",
+    "metroLabel": "服务区域（可覆盖偏远地区）",
+    "deliveryValue": "上门服务与远程医疗",
+    "deliveryLabel": "服务模式",
+    "captions": [
+      "Pillars Therapy团队",
+      "与Mary欢笑",
+      "与John交谈"
+    ]
+  },
+  "contact": {
+    "tag": "开始",
+    "heading": "准备好开始了吗？",
+    "description": "无论您是NDIS参与者、居家支持客户，还是寻求自费服务，我们都在这里为您提供帮助。请联系我们预约评估或咨询问题。",
+    "serviceArea": "服务覆盖整个墨尔本都市区"
+  },
+  "contactForm": {
+    "nameLabel": "姓名",
+    "namePlaceholder": "您的全名",
+    "emailLabel": "电子邮箱",
+    "emailPlaceholder": "your@email.com",
+    "phoneLabel": "电话",
+    "phonePlaceholder": "04XX XXX XXX",
+    "fundingLabel": "资助类型",
+    "fundingPlaceholder": "选择您的资助类型",
+    "fundingOptions": {
+      "ndis-plan": "NDIS - 计划管理",
+      "ndis-self": "NDIS - 自我管理",
+      "sah": "居家支持",
+      "private": "自费"
+    },
+    "serviceLabel": "所需服务",
+    "servicePlaceholder": "选择一项服务",
+    "otGroup": "职业治疗",
+    "osteoGroup": "整骨疗法",
+    "serviceOptions": {
+      "driving": "驾驶评估",
+      "functional": "功能评估",
+      "home-mod": "家居改造评估",
+      "at": "辅助技术评估",
+      "sda-sil": "SDA/SIL申请",
+      "wheelchair": "轮椅评估",
+      "pain": "疼痛管理",
+      "exercise": "运动方案",
+      "chronic": "慢性疾病管理",
+      "falls": "跌倒预防"
+    },
+    "messageLabel": "留言",
+    "messagePlaceholder": "请告诉我们您需要什么帮助……",
+    "submit": "发送咨询",
+    "submitting": "发送中……",
+    "thankYouTitle": "谢谢您！",
+    "thankYouMessage": "我们已收到您的咨询。我们将在1至2个工作日内与您联系。",
+    "errorGeneric": "出了点问题，请重试。",
+    "errorConnection": "无法连接到服务器。请重试或直接发送电子邮件至 contact@pillarstherapy.com.au"
+  },
+  "footer": {
+    "brandDescription": "在墨尔本都市区为您提供上门多学科专职医疗服务。",
+    "servicesHeading": "服务项目",
+    "ndisServices": "NDIS服务",
+    "supportAtHome": "居家支持",
+    "allServices": "所有服务",
+    "disciplinesHeading": "专业学科",
+    "ot": "职业治疗",
+    "osteo": "整骨疗法",
+    "contactHeading": "联系方式",
+    "sendEnquiry": "发送咨询",
+    "serviceArea": "服务覆盖整个墨尔本都市区",
+    "abn": "ABN 56 454 434 878",
+    "copyright": "© 2026 Pillars Therapy. 版权所有。"
+  },
+  "languageToggle": {
+    "label": "语言",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "mandarin": "中文（简体）",
+    "cantonese": "中文（繁體）"
+  }
+}

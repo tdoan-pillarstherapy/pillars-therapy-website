@@ -1,0 +1,239 @@
+{
+  "header": {
+    "services": "Dịch Vụ",
+    "ndis": "NDIS",
+    "supportAtHome": "Support at Home",
+    "about": "Giới Thiệu",
+    "contactUs": "Liên Hệ",
+    "accessibility": "Hỗ Trợ Tiếp Cận"
+  },
+  "hero": {
+    "tag": "Vật Lý Trị Liệu & Nắn Chỉnh Xương",
+    "headingStart": "Dịch vụ y tế đồng hành đến tận nơi bạn ",
+    "headingEmphasis": "cần",
+    "subtitle": "Dịch vụ phục hồi chức năng đa ngành được cung cấp tại nhà và qua Telehealth trên toàn khu vực Metro Melbourne. Khu vực vùng xa có thể phục vụ với phụ phí di chuyển. Hỗ trợ người tham gia NDIS, khách hàng Support at Home và cá nhân tự chi trả.",
+    "ctaServices": "Dịch Vụ Của Chúng Tôi",
+    "ctaContact": "Liên Hệ Ngay"
+  },
+  "pictureFrame": {
+    "caption": "Trị liệu chân thành & gần gũi",
+    "heroAlt": "Khách hàng lớn tuổi năng động tham gia thể thao và hoạt động ngoài trời"
+  },
+  "pathways": {
+    "tag": "Cách Chúng Tôi Hỗ Trợ Bạn",
+    "heading": "Chọn hình thức tài trợ của bạn",
+    "description": "Chúng tôi cung cấp dịch vụ thông qua nhiều nguồn tài trợ khác nhau. Chọn hình thức phù hợp với bạn để tìm hiểu thêm.",
+    "ndis": {
+      "title": "NDIS",
+      "description": "Dành cho người tham gia quản lý theo kế hoạch và tự quản lý. Dịch vụ Vật lý trị liệu và Nắn chỉnh xương toàn diện.",
+      "link": "Xem Dịch Vụ NDIS"
+    },
+    "sah": {
+      "title": "Support at Home",
+      "description": "Dịch vụ y tế đồng hành được chính phủ tài trợ dành cho người cao tuổi Úc đủ điều kiện đang sống tại nhà.",
+      "link": "Xem Dịch Vụ SAH"
+    },
+    "private": {
+      "title": "Khách Hàng Tư Nhân",
+      "description": "Dịch vụ vật lý trị liệu và nắn chỉnh xương tự chi trả dành cho tất cả mọi người.",
+      "link": "Liên Hệ Ngay"
+    }
+  },
+  "disciplines": {
+    "tag": "Chuyên Ngành Của Chúng Tôi",
+    "heading": "Chăm sóc chuyên môn qua hai chuyên ngành",
+    "ot": {
+      "title": "Vật Lý Trị Liệu",
+      "description": "Các chuyên viên vật lý trị liệu của chúng tôi làm việc cùng bạn để vượt qua những rào cản trong cuộc sống hàng ngày. Từ đánh giá khả năng lái xe đến cải tạo nhà ở và công nghệ hỗ trợ, chúng tôi giúp bạn duy trì sự độc lập và tham gia trọn vẹn vào cuộc sống.",
+      "items": [
+        "Đánh Giá & Phục Hồi Khả Năng Lái Xe",
+        "Đánh Giá Chức Năng",
+        "Đánh Giá Cải Tạo Nhà Ở",
+        "Đánh Giá Công Nghệ Hỗ Trợ",
+        "Đơn Xin SDA/SIL",
+        "Đánh Giá Xe Lăn"
+      ]
+    },
+    "osteo": {
+      "title": "Nắn Chỉnh Xương",
+      "description": "Các chuyên viên nắn chỉnh xương của chúng tôi áp dụng phương pháp tiếp cận toàn thân để giảm đau và cải thiện vận động. Chúng tôi đến tận nhà bạn và mang theo đầy đủ dụng cụ cần thiết — thông qua điều trị bằng tay, chương trình tập luyện cá nhân hóa và kế hoạch quản lý liên tục, chúng tôi giúp bạn vận động tốt hơn và cảm thấy khỏe hơn.",
+      "items": [
+        "Quản Lý Đau",
+        "Chương Trình Tập Luyện",
+        "Quản Lý Bệnh Mạn Tính",
+        "Phòng Ngừa Té Ngã"
+      ]
+    }
+  },
+  "ndisServices": {
+    "tag": "Dịch Vụ NDIS",
+    "heading": "Dịch vụ dành cho người tham gia NDIS",
+    "descriptionParts": ["Chúng tôi làm việc với người tham gia NDIS ", "quản lý theo kế hoạch", " và ", "tự quản lý", ". Xin lưu ý chúng tôi không phục vụ khách hàng do NDIA quản lý."],
+    "notice": "Chỉ dành cho người tham gia quản lý theo kế hoạch & tự quản lý",
+    "ot": "Vật Lý Trị Liệu",
+    "osteo": "Nắn Chỉnh Xương",
+    "services": {
+      "driving": {
+        "title": "Đánh Giá Khả Năng Lái Xe",
+        "description": "Dịch vụ đánh giá lái xe toàn diện bao gồm khuyến nghị cải tạo phương tiện, chương trình phục hồi khả năng lái xe và các đánh giá liên quan đến cơ quan quản lý như đánh giá lái xe Vật lý trị liệu của VicRoads. Chúng tôi giúp người tham gia lên đường hoặc trở lại lái xe an toàn."
+      },
+      "functional": {
+        "title": "Đánh Giá Chức Năng Ban Đầu & Toàn Diện",
+        "description": "Đánh giá chức năng của chúng tôi cung cấp bản đánh giá chi tiết về khả năng hiện tại của bạn trong các hoạt động sinh hoạt hàng ngày, khả năng di chuyển, tự chăm sóc, giao tiếp và tham gia cộng đồng. Những đánh giá này xác định điểm mạnh, thách thức và các hỗ trợ bạn cần để đạt được mục tiêu. Đánh giá chức năng toàn diện là nền tảng cho kế hoạch NDIS và quá trình trị liệu liên tục của bạn."
+      },
+      "homeMod": {
+        "title": "Đánh Giá Cải Tạo Nhà Ở",
+        "description": "Chuyên viên vật lý trị liệu của chúng tôi đánh giá môi trường nhà ở của bạn để xác định các cải tạo giúp nâng cao an toàn, khả năng tiếp cận và sự độc lập. Điều này có thể bao gồm lắp đặt đường dốc, cải tạo phòng tắm như thanh vịn, ghế tắm và thiết bị vệ sinh dễ tiếp cận, mở rộng cửa ra vào, lắp đặt tay vịn, bậc chuyển tiếp và các cải tạo nhỏ khác trong nhà để giảm nguy cơ té ngã và hỗ trợ sinh hoạt hàng ngày."
+      },
+      "at": {
+        "title": "Đánh Giá Công Nghệ Hỗ Trợ (AT)",
+        "description": "Chúng tôi đánh giá, dùng thử và đề xuất công nghệ hỗ trợ và thiết bị để hỗ trợ sự độc lập của bạn. Từ các dụng cụ sinh hoạt hàng ngày đến thiết bị hỗ trợ phức tạp, chúng tôi kết nối công nghệ phù hợp với nhu cầu và mục tiêu của bạn."
+      },
+      "sdaSil": {
+        "title": "Đơn Xin SDA/SIL",
+        "description": "Chúng tôi hỗ trợ người tham gia nộp đơn xin Chỗ Ở Dành Cho Người Khuyết Tật Chuyên Biệt (SDA) và Hỗ Trợ Sống Độc Lập (SIL), cung cấp các đánh giá và báo cáo chi tiết để hỗ trợ nhu cầu nhà ở và hỗ trợ của bạn."
+      },
+      "wheelchair": {
+        "title": "Đánh Giá Xe Lăn Phức Tạp",
+        "description": "Đánh giá chuyên sâu cho xe lăn thủ công và xe lăn điện, bao gồm ghế ngồi và tư thế. Chúng tôi làm việc cùng bạn và nhà cung cấp thiết bị để đảm bảo sự thoải mái, chức năng và khả năng di chuyển tối ưu."
+      },
+      "painNdis": {
+        "title": "Quản Lý Đau",
+        "description": "Điều trị nắn chỉnh xương trực tiếp tại nhà bạn — chúng tôi đến tận nơi và mang theo đầy đủ dụng cụ cần thiết. Các chuyên viên nắn chỉnh xương của chúng tôi xử lý đau cơ xương khớp, cải thiện khả năng vận động và hỗ trợ sức khỏe tổng thể của bạn với các kế hoạch quản lý cá nhân hóa phù hợp với tình trạng và mục tiêu của bạn."
+      },
+      "exerciseNdis": {
+        "title": "Chương Trình Tập Luyện",
+        "description": "Chương trình tập luyện được thiết kế riêng để bổ trợ cho quá trình điều trị nắn chỉnh xương của bạn. Tập trung vào tăng cường sức mạnh, cải thiện độ linh hoạt và ngăn ngừa tái phát đau hoặc chấn thương."
+      }
+    }
+  },
+  "sahServices": {
+    "tag": "Dịch Vụ Support at Home",
+    "heading": "Dịch vụ dành cho khách hàng Support at Home",
+    "description": "Dịch vụ y tế đồng hành được chính phủ tài trợ dành cho người cao tuổi Úc đủ điều kiện, giúp bạn duy trì sự độc lập và an toàn trong chính ngôi nhà của mình.",
+    "ot": "Vật Lý Trị Liệu",
+    "osteo": "Nắn Chỉnh Xương",
+    "services": {
+      "drivingSah": {
+        "title": "Đánh Giá Khả Năng Lái Xe",
+        "description": "Đánh giá lái xe toàn diện bao gồm khuyến nghị cải tạo phương tiện, phục hồi khả năng lái xe và đánh giá lái xe Vật lý trị liệu của VicRoads. Chúng tôi hỗ trợ người cao tuổi Úc duy trì khả năng lái xe độc lập một cách an toàn."
+      },
+      "initialSah": {
+        "title": "Đánh Giá Ban Đầu",
+        "description": "Đánh giá kỹ lưỡng về khả năng chức năng hiện tại, nhu cầu sinh hoạt hàng ngày và mục tiêu của bạn. Điều này giúp xây dựng kế hoạch chăm sóc và xác định các hỗ trợ và can thiệp có lợi nhất cho bạn."
+      },
+      "homeModSah": {
+        "title": "Đánh Giá Cải Tạo Nhà Ở",
+        "description": "Chúng tôi đánh giá nhà ở của bạn để xác định các cải tạo giúp nâng cao an toàn và khả năng tiếp cận. Điều này bao gồm lắp đặt đường dốc, cải tạo phòng tắm như thanh vịn, ghế tắm và thiết bị vệ sinh dễ tiếp cận, tay vịn, bậc chuyển tiếp và các cải tạo nhỏ khác để giảm nguy cơ té ngã và giúp bạn sống thoải mái tại nhà."
+      },
+      "atSah": {
+        "title": "Đánh Giá Công Nghệ Hỗ Trợ (AT)",
+        "description": "Đánh giá và đề xuất thiết bị và dụng cụ hỗ trợ để giúp bạn độc lập tại nhà, từ dụng cụ hỗ trợ di chuyển đến thiết bị sinh hoạt hàng ngày."
+      },
+      "painSah": {
+        "title": "Quản Lý Đau",
+        "description": "Điều trị nắn chỉnh xương trực tiếp tại nhà bạn — chúng tôi đến tận nơi và mang theo đầy đủ dụng cụ cần thiết. Các chuyên viên nắn chỉnh xương của chúng tôi quản lý đau cơ xương khớp và cải thiện chất lượng cuộc sống với các kế hoạch cá nhân hóa nhằm giải quyết các nhu cầu cụ thể của bạn."
+      },
+      "exerciseSah": {
+        "title": "Chương Trình Tập Luyện",
+        "description": "Chương trình tập luyện được thiết kế riêng để cải thiện sức mạnh, thăng bằng và khả năng vận động. Được thiết kế để bổ trợ cho quá trình điều trị và giúp bạn duy trì sự năng động và độc lập tại nhà."
+      },
+      "chronicSah": {
+        "title": "Quản Lý Bệnh Mạn Tính",
+        "description": "Chăm sóc nắn chỉnh xương liên tục cho các tình trạng như viêm khớp, đau mạn tính và các rối loạn cơ xương khớp. Chúng tôi làm việc cùng bạn để quản lý triệu chứng, duy trì khả năng vận động và cải thiện chất lượng cuộc sống theo thời gian."
+      },
+      "fallsSah": {
+        "title": "Phòng Ngừa Té Ngã",
+        "description": "Đánh giá thăng bằng, dáng đi và các yếu tố nguy cơ cơ xương khớp để giảm nguy cơ té ngã của bạn. Các chuyên viên nắn chỉnh xương của chúng tôi xác định các vấn đề cần quan tâm và cung cấp điều trị và bài tập có mục tiêu để giúp bạn an toàn và tự tin trên đôi chân của mình."
+      }
+    }
+  },
+  "about": {
+    "tag": "Giới Thiệu",
+    "headingStart": "Trị liệu ",
+    "handwrittenAccent": "chân thành và ",
+    "underlineWord": "gần gũi",
+    "paragraphs": [
+      "Pillars Therapy là nhà cung cấp dịch vụ y tế đồng hành hàng đầu, cung cấp dịch vụ phục hồi chức năng đa ngành tại nhà và từ xa qua Telehealth trên toàn khu vực Metro Melbourne. Chúng tôi cũng có thể phục vụ khu vực vùng xa với phụ phí di chuyển.",
+      "Đội ngũ chuyên viên vật lý trị liệu và nắn chỉnh xương của chúng tôi đam mê giúp bạn đạt được mục tiêu, dù đó là trở lại lái xe, cải tạo nhà ở để dễ tiếp cận hơn, quản lý đau hay tăng cường sức mạnh và sự độc lập.",
+      "Chúng tôi tin rằng mọi người đều xứng đáng được chăm sóc nhanh chóng, tôn trọng và phù hợp với cuộc sống của họ. Đó là lý do chúng tôi đến tận nơi bạn cần."
+    ],
+    "metroValue": "Metro Melbourne",
+    "metroLabel": "Khu vực phục vụ (có phục vụ vùng xa)",
+    "deliveryValue": "Tại nhà & Telehealth",
+    "deliveryLabel": "Hình thức cung cấp",
+    "captions": [
+      "Đội ngũ Pillars Therapy",
+      "Cười vui cùng Mary",
+      "Trò chuyện cùng John"
+    ]
+  },
+  "contact": {
+    "tag": "Bắt Đầu Ngay",
+    "heading": "Sẵn sàng bắt đầu?",
+    "description": "Dù bạn là người tham gia NDIS, khách hàng Support at Home hay đang tìm kiếm dịch vụ tư nhân, chúng tôi sẵn sàng hỗ trợ. Liên hệ để đặt lịch đánh giá hoặc đặt câu hỏi.",
+    "serviceArea": "Phục vụ toàn khu vực Metro Melbourne"
+  },
+  "contactForm": {
+    "nameLabel": "Họ Tên",
+    "namePlaceholder": "Họ và tên đầy đủ",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "phoneLabel": "Điện Thoại",
+    "phonePlaceholder": "04XX XXX XXX",
+    "fundingLabel": "Loại Tài Trợ",
+    "fundingPlaceholder": "Chọn loại tài trợ của bạn",
+    "fundingOptions": {
+      "ndis-plan": "NDIS - Quản Lý Theo Kế Hoạch",
+      "ndis-self": "NDIS - Tự Quản Lý",
+      "sah": "Support at Home",
+      "private": "Tự Chi Trả"
+    },
+    "serviceLabel": "Dịch Vụ Cần Thiết",
+    "servicePlaceholder": "Chọn một dịch vụ",
+    "otGroup": "Vật Lý Trị Liệu",
+    "osteoGroup": "Nắn Chỉnh Xương",
+    "serviceOptions": {
+      "driving": "Đánh Giá Khả Năng Lái Xe",
+      "functional": "Đánh Giá Chức Năng",
+      "home-mod": "Đánh Giá Cải Tạo Nhà Ở",
+      "at": "Đánh Giá Công Nghệ Hỗ Trợ",
+      "sda-sil": "Đơn Xin SDA/SIL",
+      "wheelchair": "Đánh Giá Xe Lăn",
+      "pain": "Quản Lý Đau",
+      "exercise": "Chương Trình Tập Luyện",
+      "chronic": "Quản Lý Bệnh Mạn Tính",
+      "falls": "Phòng Ngừa Té Ngã"
+    },
+    "messageLabel": "Lời Nhắn",
+    "messagePlaceholder": "Hãy cho chúng tôi biết bạn cần gì...",
+    "submit": "Gửi Yêu Cầu",
+    "submitting": "Đang gửi...",
+    "thankYouTitle": "Cảm ơn bạn!",
+    "thankYouMessage": "Yêu cầu của bạn đã được tiếp nhận. Chúng tôi sẽ liên hệ lại trong vòng 1–2 ngày làm việc.",
+    "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "errorConnection": "Không thể kết nối đến máy chủ. Vui lòng thử lại hoặc gửi email trực tiếp đến contact@pillarstherapy.com.au"
+  },
+  "footer": {
+    "brandDescription": "Dịch vụ y tế đồng hành đa ngành được cung cấp tại nhà trên toàn khu vực Metro Melbourne.",
+    "servicesHeading": "Dịch Vụ",
+    "ndisServices": "Dịch Vụ NDIS",
+    "supportAtHome": "Support at Home",
+    "allServices": "Tất Cả Dịch Vụ",
+    "disciplinesHeading": "Chuyên Ngành",
+    "ot": "Vật Lý Trị Liệu",
+    "osteo": "Nắn Chỉnh Xương",
+    "contactHeading": "Liên Hệ",
+    "sendEnquiry": "Gửi Yêu Cầu",
+    "serviceArea": "Phục vụ toàn khu vực Metro Melbourne",
+    "abn": "ABN 56 454 434 878",
+    "copyright": "© 2026 Pillars Therapy. Bảo lưu mọi quyền."
+  },
+  "languageToggle": {
+    "label": "Ngôn Ngữ",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "mandarin": "中文（简体）",
+    "cantonese": "中文（繁體）"
+  }
+}

@@ -1,4 +1,10 @@
+'use client'
+
+import { useTranslation } from '@/i18n/useTranslation'
+
 export default function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer className="footer">
       <div className="container">
@@ -7,35 +13,35 @@ export default function Footer() {
             <span className="logo">
               <img src="/assets/PillarsTherapy_Logo_PositiveGrad.png" alt="Pillars Therapy" className="logo-img footer-logo-img" />
             </span>
-            <p>Multidisciplinary allied health services delivered in your home across Metro Melbourne.</p>
+            <p>{t.footer.brandDescription}</p>
           </div>
           <div className="footer-col">
-            <h4>Services</h4>
+            <h4>{t.footer.servicesHeading}</h4>
             <ul>
-              <li><a href="#ndis">NDIS Services</a></li>
-              <li><a href="#sah">Support at Home</a></li>
-              <li><a href="#services">All Services</a></li>
+              <li><a href="#ndis">{t.footer.ndisServices}</a></li>
+              <li><a href="#sah">{t.footer.supportAtHome}</a></li>
+              <li><a href="#services">{t.footer.allServices}</a></li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Disciplines</h4>
+            <h4>{t.footer.disciplinesHeading}</h4>
             <ul>
-              <li><a href="#services">Occupational Therapy</a></li>
-              <li><a href="#services">Osteopathy</a></li>
+              <li><a href="#services">{t.footer.ot}</a></li>
+              <li><a href="#services">{t.footer.osteo}</a></li>
             </ul>
           </div>
           <div className="footer-col">
-            <h4>Contact</h4>
+            <h4>{t.footer.contactHeading}</h4>
             <ul>
               <li><a href="mailto:contact@pillarstherapy.com.au">contact@pillarstherapy.com.au</a></li>
-              <li><a href="#contact">Send an Enquiry</a></li>
-              <li>Servicing all of Metro Melbourne</li>
+              <li><a href="#contact">{t.footer.sendEnquiry}</a></li>
+              <li>{t.footer.serviceArea}</li>
             </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>ABN 56 454 434 878</p>
-          <p>&copy; 2026 Pillars Therapy. All rights reserved.</p>
+          <p>{t.footer.abn}</p>
+          <p>{t.footer.copyright}</p>
         </div>
       </div>
     </footer>

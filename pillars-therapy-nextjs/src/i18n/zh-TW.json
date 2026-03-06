@@ -1,0 +1,239 @@
+{
+  "header": {
+    "services": "服務",
+    "ndis": "NDIS",
+    "supportAtHome": "居家支援",
+    "about": "關於我們",
+    "contactUs": "聯絡我們",
+    "accessibility": "無障礙設施"
+  },
+  "hero": {
+    "tag": "職業治療及骨療法",
+    "headingStart": "上門提供嘅專職醫療服務，配合你嘅",
+    "headingEmphasis": "需要",
+    "subtitle": "跨學科復康服務，以上門及遠程醫療方式覆蓋整個墨爾本都會區。偏遠地區需額外收取交通費用。服務對象包括 NDIS 參加者、居家支援客戶及自費個人。",
+    "ctaServices": "我們嘅服務",
+    "ctaContact": "聯絡我們"
+  },
+  "pictureFrame": {
+    "caption": "真誠、貼心嘅治療服務",
+    "heroAlt": "活躍嘅長者客戶享受運動同戶外活動"
+  },
+  "pathways": {
+    "tag": "合作方式",
+    "heading": "選擇你嘅資助途徑",
+    "description": "我們透過多種資助途徑提供服務。請揀選適合你嘅途徑，了解我們嘅服務內容。",
+    "ndis": {
+      "title": "NDIS",
+      "description": "適用於計劃管理及自我管理嘅參加者。全面嘅職業治療及骨療法服務。",
+      "link": "查看 NDIS 服務"
+    },
+    "sah": {
+      "title": "居家支援",
+      "description": "為合資格嘅居家長者提供政府資助嘅專職醫療服務。",
+      "link": "查看居家支援服務"
+    },
+    "private": {
+      "title": "自費客戶",
+      "description": "自費嘅職業治療及骨療法服務，歡迎所有人使用。",
+      "link": "聯絡我們"
+    }
+  },
+  "disciplines": {
+    "tag": "我們嘅專業",
+    "heading": "兩大專業範疇嘅專家護理",
+    "ot": {
+      "title": "職業治療",
+      "description": "我們嘅職業治療師與你合作，幫助你克服日常生活中嘅障礙。由駕駛評估到家居改裝同輔助器材，我們幫助你保持獨立生活能力，全面參與生活。",
+      "items": [
+        "駕駛評估及復康訓練",
+        "功能評估",
+        "家居改裝評估",
+        "輔助器材評估",
+        "SDA/SIL 申請",
+        "輪椅評估"
+      ]
+    },
+    "osteo": {
+      "title": "骨療法",
+      "description": "我們嘅骨療師採用全身治療方法來紓緩痛楚同改善活動能力。我們上門提供服務，自備所有器材——透過手法治療、度身訂造嘅運動計劃同持續管理方案，幫助你活動自如、感覺更好。",
+      "items": [
+        "痛症管理",
+        "運動計劃",
+        "慢性疾病管理",
+        "跌倒預防"
+      ]
+    }
+  },
+  "ndisServices": {
+    "tag": "NDIS 服務",
+    "heading": "NDIS 參加者適用嘅服務",
+    "descriptionParts": ["我們服務", "計劃管理", "及", "自我管理", "嘅 NDIS 參加者。請留意，我們唔接受由 NDIA 管理嘅客戶。"],
+    "notice": "僅限計劃管理及自我管理嘅參加者",
+    "ot": "職業治療",
+    "osteo": "骨療法",
+    "services": {
+      "driving": {
+        "title": "駕駛評估",
+        "description": "全面嘅駕駛評估服務，包括車輛改裝建議、駕駛復康計劃，以及 VicRoads 職業治療駕駛評估等相關評估。我們幫助參加者安全地開始或重返駕駛。"
+      },
+      "functional": {
+        "title": "初步及全面功能評估",
+        "description": "我們嘅功能評估會詳細評估你喺日常生活活動、活動能力、自理能力、溝通及社區參與方面嘅現有能力。呢啲評估會識別你嘅優勢、挑戰，以及你為達成目標所需嘅支援。全面功能評估係你 NDIS 計劃同持續治療嘅基礎。"
+      },
+      "homeMod": {
+        "title": "家居改裝評估",
+        "description": "我們嘅職業治療師會評估你嘅家居環境，識別可以提升安全性、無障礙程度同獨立生活能力嘅改裝方案。包括安裝斜坡道、浴室改裝（如扶手、淋浴座椅及無障礙設施）、加闊門口、安裝扶手、門檻斜坡，以及其他可以減低跌倒風險同支援日常生活嘅小型改裝。"
+      },
+      "at": {
+        "title": "輔助器材 (AT) 評估",
+        "description": "我們評估、試用同推薦輔助器材及設備，以支持你嘅獨立生活。由日常生活輔助用品到複雜嘅輔助裝置，我們會配合你嘅需要同目標，揀選最合適嘅器材。"
+      },
+      "sdaSil": {
+        "title": "SDA/SIL 申請",
+        "description": "我們協助參加者申請專業殘障住宿 (SDA) 同獨立生活支援 (SIL)，提供詳細嘅評估同報告，以支持你嘅住宿及支援需要。"
+      },
+      "wheelchair": {
+        "title": "複雜輪椅評估",
+        "description": "為手動及電動輪椅提供專業評估，包括座位及姿勢調整。我們與你同器材供應商合作，確保最佳嘅舒適度、功能性同活動能力。"
+      },
+      "painNdis": {
+        "title": "痛症管理",
+        "description": "上門提供嘅骨療法手法治療——我們上門服務，自備所有器材。我們嘅骨療師處理肌肉骨骼痛症、改善活動能力，並透過度身訂造嘅管理方案支持你嘅整體健康。"
+      },
+      "exerciseNdis": {
+        "title": "運動計劃",
+        "description": "度身設計嘅運動計劃，配合你嘅骨療法治療。專注於增強體力、改善柔韌性，同預防痛症或傷患復發。"
+      }
+    }
+  },
+  "sahServices": {
+    "tag": "居家支援服務",
+    "heading": "居家支援客戶適用嘅服務",
+    "description": "為合資格嘅澳洲長者提供政府資助嘅專職醫療服務，幫助你喺自己屋企安全、獨立地生活。",
+    "ot": "職業治療",
+    "osteo": "骨療法",
+    "services": {
+      "drivingSah": {
+        "title": "駕駛評估",
+        "description": "全面嘅駕駛評估，包括車輛改裝建議、駕駛復康同 VicRoads 職業治療駕駛評估。我們支持澳洲長者安全地維持駕駛獨立性。"
+      },
+      "initialSah": {
+        "title": "初步評估",
+        "description": "全面評估你現時嘅功能能力、日常生活需要同目標。呢個評估會為你嘅護理計劃提供依據，並識別最適合你嘅支援同介入方案。"
+      },
+      "homeModSah": {
+        "title": "家居改裝評估",
+        "description": "我們評估你嘅家居環境，提出可以提升安全性同無障礙程度嘅改裝建議。包括安裝斜坡道、浴室改裝（如扶手、淋浴座椅及無障礙設施）、安裝扶手、門檻斜坡，以及其他可以減低跌倒風險、幫助你喺屋企舒適生活嘅小型改裝。"
+      },
+      "atSah": {
+        "title": "輔助器材 (AT) 評估",
+        "description": "評估及推薦設備同輔助器材，以支持你喺屋企嘅獨立生活，由助行器材到日常生活用品。"
+      },
+      "painSah": {
+        "title": "痛症管理",
+        "description": "上門提供嘅骨療法手法治療——我們上門服務，自備所有器材。我們嘅骨療師管理肌肉骨骼痛症，透過度身訂造嘅方案改善你嘅生活質素。"
+      },
+      "exerciseSah": {
+        "title": "運動計劃",
+        "description": "度身訂造嘅運動計劃，以改善體力、平衡力同活動能力。配合治療設計，幫助你保持活躍同獨立嘅居家生活。"
+      },
+      "chronicSah": {
+        "title": "慢性疾病管理",
+        "description": "為關節炎、慢性痛症同肌肉骨骼疾病等病症提供持續嘅骨療法護理。我們與你合作管理症狀、維持活動能力，並逐步改善你嘅生活質素。"
+      },
+      "fallsSah": {
+        "title": "跌倒預防",
+        "description": "評估平衡力、步態同肌肉骨骼風險因素，以降低你嘅跌倒風險。我們嘅骨療師會識別需要關注嘅範疇，並提供針對性嘅治療同運動，幫助你安全、自信地行走。"
+      }
+    }
+  },
+  "about": {
+    "tag": "關於我們",
+    "headingStart": "真誠、",
+    "handwrittenAccent": "貼心嘅",
+    "underlineWord": "治療",
+    "paragraphs": [
+      "Pillars Therapy 係領先嘅專職醫療服務提供者，以上門及遠程醫療方式喺墨爾本都會區提供跨學科復康服務。偏遠地區亦可服務，需額外收取交通費用。",
+      "我們嘅職業治療師同骨療師團隊熱衷於幫助你達成目標，無論係重返駕駛、改裝家居以提升無障礙程度、管理痛症，定係增強體力同獨立生活能力。",
+      "我們相信每個人都值得獲得積極回應、尊重同度身訂造嘅護理服務。所以我們上門為你提供服務。"
+    ],
+    "metroValue": "墨爾本都會區",
+    "metroLabel": "服務地區（偏遠地區亦可）",
+    "deliveryValue": "上門及遠程醫療",
+    "deliveryLabel": "服務模式",
+    "captions": [
+      "Pillars Therapy 嘅團隊",
+      "同 Mary 開心傾偈",
+      "同 John 閒聊"
+    ]
+  },
+  "contact": {
+    "tag": "開始使用",
+    "heading": "準備好開始喇？",
+    "description": "無論你係 NDIS 參加者、居家支援客戶，定係想搵自費服務，我們都可以幫到你。歡迎聯絡我們預約評估或查詢。",
+    "serviceArea": "服務覆蓋整個墨爾本都會區"
+  },
+  "contactForm": {
+    "nameLabel": "姓名",
+    "namePlaceholder": "你嘅全名",
+    "emailLabel": "電郵",
+    "emailPlaceholder": "your@email.com",
+    "phoneLabel": "電話",
+    "phonePlaceholder": "04XX XXX XXX",
+    "fundingLabel": "資助類型",
+    "fundingPlaceholder": "請揀選你嘅資助類型",
+    "fundingOptions": {
+      "ndis-plan": "NDIS - 計劃管理",
+      "ndis-self": "NDIS - 自我管理",
+      "sah": "居家支援",
+      "private": "自費"
+    },
+    "serviceLabel": "所需服務",
+    "servicePlaceholder": "請揀選服務",
+    "otGroup": "職業治療",
+    "osteoGroup": "骨療法",
+    "serviceOptions": {
+      "driving": "駕駛評估",
+      "functional": "功能評估",
+      "home-mod": "家居改裝評估",
+      "at": "輔助器材評估",
+      "sda-sil": "SDA/SIL 申請",
+      "wheelchair": "輪椅評估",
+      "pain": "痛症管理",
+      "exercise": "運動計劃",
+      "chronic": "慢性疾病管理",
+      "falls": "跌倒預防"
+    },
+    "messageLabel": "訊息",
+    "messagePlaceholder": "簡單講下你需要咩服務...",
+    "submit": "提交查詢",
+    "submitting": "提交中...",
+    "thankYouTitle": "多謝你！",
+    "thankYouMessage": "我們已收到你嘅查詢，會喺 1–2 個工作天內聯絡你。",
+    "errorGeneric": "出咗啲問題，請再試一次。",
+    "errorConnection": "無法連接到伺服器。請再試一次，或直接發電郵至 contact@pillarstherapy.com.au 聯絡我們。"
+  },
+  "footer": {
+    "brandDescription": "上門提供嘅跨學科專職醫療服務，覆蓋整個墨爾本都會區。",
+    "servicesHeading": "服務",
+    "ndisServices": "NDIS 服務",
+    "supportAtHome": "居家支援",
+    "allServices": "所有服務",
+    "disciplinesHeading": "專業範疇",
+    "ot": "職業治療",
+    "osteo": "骨療法",
+    "contactHeading": "聯絡",
+    "sendEnquiry": "提交查詢",
+    "serviceArea": "服務覆蓋整個墨爾本都會區",
+    "abn": "ABN 56 454 434 878",
+    "copyright": "\u00a9 2026 Pillars Therapy. All rights reserved."
+  },
+  "languageToggle": {
+    "label": "語言",
+    "english": "English",
+    "vietnamese": "Ti\u1ebfng Vi\u1ec7t",
+    "mandarin": "\u4e2d\u6587\uff08\u7b80\u4f53\uff09",
+    "cantonese": "\u4e2d\u6587\uff08\u7e41\u9ad4\uff09"
+  }
+}

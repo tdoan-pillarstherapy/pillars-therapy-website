@@ -1,8 +1,10 @@
 'use client'
 
 import { useState, FormEvent } from 'react'
+import { useTranslation } from '@/i18n/useTranslation'
 
 export default function ContactForm() {
+  const { t } = useTranslation()
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
@@ -34,13 +36,13 @@ export default function ContactForm() {
       const result = await response.json()
 
       if (!response.ok) {
-        setError(result.error || 'Something went wrong. Please try again.')
+        setError(result.error || t.contactForm.errorGeneric)
         return
       }
 
       setIsSubmitted(true)
     } catch {
-      setError('Could not connect to the server. Please try again or email us directly at contact@pillarstherapy.com.au')
+      setError(t.contactForm.errorConnection)
     } finally {
       setIsLoading(false)
     }
@@ -54,8 +56,8 @@ export default function ContactForm() {
             <circle cx="24" cy="24" r="20" stroke="currentColor" strokeWidth="2" />
             <path d="M16 24l6 6 10-10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.5rem', marginBottom: '0.5rem' }}>Thank you!</h3>
-          <p style={{ color: '#5a5a72', lineHeight: 1.6 }}>Your enquiry has been received. We&apos;ll be in touch within 1&ndash;2 business days.</p>
+          <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.5rem', marginBottom: '0.5rem' }}>{t.contactForm.thankYouTitle}</h3>
+          <p style={{ color: '#5a5a72', lineHeight: 1.6 }}>{t.contactForm.thankYouMessage}</p>
         </div>
       </div>
     )
@@ -65,50 +67,50 @@ export default function ContactForm() {
     <div className="contact-form-wrapper">
       <form className="contact-form" id="contactForm" onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" required placeholder="Your full name" />
+          <label htmlFor="name">{t.contactForm.nameLabel}</label>
+          <input type="text" id="name" name="name" required placeholder={t.contactForm.namePlaceholder} />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email" required placeholder="your@email.com" />
+          <label htmlFor="email">{t.contactForm.emailLabel}</label>
+          <input type="email" id="email" name="email" required placeholder={t.contactForm.emailPlaceholder} />
         </div>
         <div className="form-group">
-          <label htmlFor="phone">Phone</label>
-          <input type="tel" id="phone" name="phone" placeholder="04XX XXX XXX" />
+          <label htmlFor="phone">{t.contactForm.phoneLabel}</label>
+          <input type="tel" id="phone" name="phone" placeholder={t.contactForm.phonePlaceholder} />
         </div>
         <div className="form-group">
-          <label htmlFor="funding">Funding Type</label>
+          <label htmlFor="funding">{t.contactForm.fundingLabel}</label>
           <select id="funding" name="funding" defaultValue="">
-            <option value="">Select your funding type</option>
-            <option value="ndis-plan">NDIS - Plan Managed</option>
-            <option value="ndis-self">NDIS - Self Managed</option>
-            <option value="sah">Support at Home</option>
-            <option value="private">Private</option>
+            <option value="">{t.contactForm.fundingPlaceholder}</option>
+            <option value="ndis-plan">{t.contactForm.fundingOptions['ndis-plan']}</option>
+            <option value="ndis-self">{t.contactForm.fundingOptions['ndis-self']}</option>
+            <option value="sah">{t.contactForm.fundingOptions['sah']}</option>
+            <option value="private">{t.contactForm.fundingOptions['private']}</option>
           </select>
         </div>
         <div className="form-group">
-          <label htmlFor="service">Service Needed</label>
+          <label htmlFor="service">{t.contactForm.serviceLabel}</label>
           <select id="service" name="service" defaultValue="">
-            <option value="">Select a service</option>
-            <optgroup label="Occupational Therapy">
-              <option value="driving">Driving Assessments</option>
-              <option value="functional">Functional Assessments</option>
-              <option value="home-mod">Home Modification Assessments</option>
-              <option value="at">Assistive Technology Assessments</option>
-              <option value="sda-sil">SDA/SIL Applications</option>
-              <option value="wheelchair">Wheelchair Assessments</option>
+            <option value="">{t.contactForm.servicePlaceholder}</option>
+            <optgroup label={t.contactForm.otGroup}>
+              <option value="driving">{t.contactForm.serviceOptions['driving']}</option>
+              <option value="functional">{t.contactForm.serviceOptions['functional']}</option>
+              <option value="home-mod">{t.contactForm.serviceOptions['home-mod']}</option>
+              <option value="at">{t.contactForm.serviceOptions['at']}</option>
+              <option value="sda-sil">{t.contactForm.serviceOptions['sda-sil']}</option>
+              <option value="wheelchair">{t.contactForm.serviceOptions['wheelchair']}</option>
             </optgroup>
-            <optgroup label="Osteopathy">
-              <option value="pain">Pain Management</option>
-              <option value="exercise">Exercise Programs</option>
-              <option value="chronic">Chronic Condition Management</option>
-              <option value="falls">Falls Prevention</option>
+            <optgroup label={t.contactForm.osteoGroup}>
+              <option value="pain">{t.contactForm.serviceOptions['pain']}</option>
+              <option value="exercise">{t.contactForm.serviceOptions['exercise']}</option>
+              <option value="chronic">{t.contactForm.serviceOptions['chronic']}</option>
+              <option value="falls">{t.contactForm.serviceOptions['falls']}</option>
             </optgroup>
           </select>
         </div>
         <div className="form-group">
-          <label htmlFor="message">Message</label>
-          <textarea id="message" name="message" rows={4} placeholder="Tell us a bit about what you need..."></textarea>
+          <label htmlFor="message">{t.contactForm.messageLabel}</label>
+          <textarea id="message" name="message" rows={4} placeholder={t.contactForm.messagePlaceholder}></textarea>
         </div>
 
         {error && (
@@ -132,7 +134,7 @@ export default function ContactForm() {
           disabled={isLoading}
           style={isLoading ? { opacity: 0.7, cursor: 'not-allowed' } : undefined}
         >
-          {isLoading ? 'Sending...' : 'Send Enquiry'}
+          {isLoading ? t.contactForm.submitting : t.contactForm.submit}
         </button>
       </form>
     </div>

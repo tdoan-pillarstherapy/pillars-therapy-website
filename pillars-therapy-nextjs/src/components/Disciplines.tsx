@@ -1,10 +1,16 @@
+'use client'
+
+import { useTranslation } from '@/i18n/useTranslation'
+
 export default function Disciplines() {
+  const { t } = useTranslation()
+
   return (
     <section className="disciplines">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">Our Disciplines</span>
-          <h2>Expert care across two disciplines</h2>
+          <span className="section-tag">{t.disciplines.tag}</span>
+          <h2>{t.disciplines.heading}</h2>
         </div>
         <div className="discipline-grid">
           <div className="discipline-card">
@@ -14,15 +20,12 @@ export default function Disciplines() {
                 <path d="M24 16v16M16 24h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
               </svg>
             </div>
-            <h3>Occupational Therapy</h3>
-            <p>Our occupational therapists work with you to overcome barriers to everyday living. From driving assessments to home modifications and assistive technology, we help you maintain independence and participate fully in life.</p>
+            <h3>{t.disciplines.ot.title}</h3>
+            <p>{t.disciplines.ot.description}</p>
             <ul className="discipline-list">
-              <li>Driving Assessments &amp; Rehabilitation</li>
-              <li>Functional Assessments</li>
-              <li>Home Modification Assessments</li>
-              <li>Assistive Technology Assessments</li>
-              <li>SDA/SIL Applications</li>
-              <li>Wheelchair Assessments</li>
+              {t.disciplines.ot.items.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
             </ul>
           </div>
           <div className="discipline-card">
@@ -32,11 +35,12 @@ export default function Disciplines() {
                 <path d="M24 14c-4 3-6 7-6 10s2 7 6 10c4-3 6-7 6-10s-2-7-6-10z" stroke="currentColor" strokeWidth="2" />
               </svg>
             </div>
-            <h3>Osteopathy</h3>
-            <p>Our osteopaths take a whole-body approach to pain relief and movement. We travel to your home and bring everything we need — through hands-on treatment, tailored exercise programs, and ongoing management plans, we help you move better and feel better.</p>
+            <h3>{t.disciplines.osteo.title}</h3>
+            <p>{t.disciplines.osteo.description}</p>
             <ul className="discipline-list">
-              <li>Pain Management</li>
-              <li>Exercise Programs</li>
+              {t.disciplines.osteo.items.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
             </ul>
           </div>
         </div>

@@ -1,0 +1,239 @@
+{
+  "header": {
+    "services": "Services",
+    "ndis": "NDIS",
+    "supportAtHome": "Support at Home",
+    "about": "About",
+    "contactUs": "Contact Us",
+    "accessibility": "Accessibility"
+  },
+  "hero": {
+    "tag": "Occupational Therapy & Osteopathy",
+    "headingStart": "Allied health that meets you where you ",
+    "headingEmphasis": "are",
+    "subtitle": "Multidisciplinary rehabilitation services delivered in your home and via Telehealth across Metro Melbourne. Regional areas available at an additional travel cost. Supporting NDIS participants, Support at Home clients, and private individuals.",
+    "ctaServices": "Our Services",
+    "ctaContact": "Get in Touch"
+  },
+  "pictureFrame": {
+    "caption": "Therapy that's human & real",
+    "heroAlt": "Active elderly clients enjoying sports and outdoor activities"
+  },
+  "pathways": {
+    "tag": "How We Work With You",
+    "heading": "Choose your funding pathway",
+    "description": "We provide services through multiple funding streams. Select the pathway that applies to you to explore what we offer.",
+    "ndis": {
+      "title": "NDIS",
+      "description": "Plan-managed and self-managed participants. Comprehensive OT and Osteopathy services.",
+      "link": "View NDIS Services"
+    },
+    "sah": {
+      "title": "Support at Home",
+      "description": "Government-funded allied health for eligible older Australians living at home.",
+      "link": "View SAH Services"
+    },
+    "private": {
+      "title": "Private Clients",
+      "description": "Self-funded occupational therapy and osteopathy services available to everyone.",
+      "link": "Get in Touch"
+    }
+  },
+  "disciplines": {
+    "tag": "Our Disciplines",
+    "heading": "Expert care across two disciplines",
+    "ot": {
+      "title": "Occupational Therapy",
+      "description": "Our occupational therapists work with you to overcome barriers to everyday living. From driving assessments to home modifications and assistive technology, we help you maintain independence and participate fully in life.",
+      "items": [
+        "Driving Assessments & Rehabilitation",
+        "Functional Assessments",
+        "Home Modification Assessments",
+        "Assistive Technology Assessments",
+        "SDA/SIL Applications",
+        "Wheelchair Assessments"
+      ]
+    },
+    "osteo": {
+      "title": "Osteopathy",
+      "description": "Our osteopaths take a whole-body approach to pain relief and movement. We travel to your home and bring everything we need \u2014 through hands-on treatment, tailored exercise programs, and ongoing management plans, we help you move better and feel better.",
+      "items": [
+        "Pain Management",
+        "Exercise Programs",
+        "Chronic Condition Management",
+        "Falls Prevention"
+      ]
+    }
+  },
+  "ndisServices": {
+    "tag": "NDIS Services",
+    "heading": "Services for NDIS participants",
+    "descriptionParts": ["We work with ", "plan-managed", " and ", "self-managed", " NDIS participants. Please note we do not service NDIA-managed clients."],
+    "notice": "Plan-managed & self-managed participants only",
+    "ot": "Occupational Therapy",
+    "osteo": "Osteopathy",
+    "services": {
+      "driving": {
+        "title": "Driving Assessments",
+        "description": "Comprehensive driving evaluation services including vehicle modification recommendations, driving rehabilitation programs, and state-related assessments such as VicRoads Occupational Therapy driving assessments. We help participants get on the road or return to driving safely."
+      },
+      "functional": {
+        "title": "Initial & Full Functional Assessments",
+        "description": "Our functional assessments provide a detailed evaluation of your current abilities across daily living activities, mobility, self-care, communication, and community participation. These assessments identify your strengths, challenges, and the supports you need to achieve your goals. A full functional assessment forms the foundation for your NDIS plan and ongoing therapy."
+      },
+      "homeMod": {
+        "title": "Home Modification Assessments",
+        "description": "Our OTs assess your home environment to identify modifications that improve safety, accessibility, and independence. This can include ramp installations, bathroom modifications such as grab rails, shower seats, and accessible fixtures, widening doorways, installing handrails, threshold ramps, and other minor modifications throughout the home to reduce falls risk and support daily living."
+      },
+      "at": {
+        "title": "Assistive Technology (AT) Assessments",
+        "description": "We assess, trial, and recommend assistive technology and equipment to support your independence. From daily living aids to complex assistive devices, we match the right technology to your needs and goals."
+      },
+      "sdaSil": {
+        "title": "SDA/SIL Applications",
+        "description": "We assist participants with Specialist Disability Accommodation (SDA) and Supported Independent Living (SIL) applications, providing detailed assessments and reports to support your housing and support needs."
+      },
+      "wheelchair": {
+        "title": "Complex Wheelchair Assessments",
+        "description": "Specialised assessments for manual and power wheelchairs, including seating and positioning. We work with you and equipment suppliers to ensure optimal comfort, function, and mobility."
+      },
+      "painNdis": {
+        "title": "Pain Management",
+        "description": "Hands-on osteopathic treatment delivered in your home \u2014 we travel to you and bring everything we need. Our osteopaths address musculoskeletal pain, improve mobility, and support your overall wellbeing with personalised management plans tailored to your condition and goals."
+      },
+      "exerciseNdis": {
+        "title": "Exercise Programs",
+        "description": "Individually designed exercise programs that complement your osteopathic treatment. Focused on building strength, improving flexibility, and preventing recurrence of pain or injury."
+      }
+    }
+  },
+  "sahServices": {
+    "tag": "Support at Home Services",
+    "heading": "Services for Support at Home clients",
+    "description": "Government-funded allied health services for eligible older Australians, helping you stay independent and safe in your own home.",
+    "ot": "Occupational Therapy",
+    "osteo": "Osteopathy",
+    "services": {
+      "drivingSah": {
+        "title": "Driving Assessments",
+        "description": "Comprehensive driving evaluation including vehicle modification recommendations, driving rehabilitation, and VicRoads Occupational Therapy driving assessments. We support older Australians to maintain their driving independence safely."
+      },
+      "initialSah": {
+        "title": "Initial Assessments",
+        "description": "A thorough assessment of your current functional abilities, daily living needs, and goals. This informs your care plan and identifies the supports and interventions that will benefit you most."
+      },
+      "homeModSah": {
+        "title": "Home Modification Assessments",
+        "description": "We assess your home for modifications that improve safety and accessibility. This includes ramp installations, bathroom modifications such as grab rails, shower seats, and accessible fixtures, handrails, threshold ramps, and other minor modifications to reduce falls risk and help you live comfortably at home."
+      },
+      "atSah": {
+        "title": "Assistive Technology (AT) Assessments",
+        "description": "Assessment and recommendation of equipment and assistive devices to support your independence at home, from mobility aids to daily living equipment."
+      },
+      "painSah": {
+        "title": "Pain Management",
+        "description": "Hands-on osteopathic treatment delivered in your home \u2014 we travel to you and bring everything we need. Our osteopaths manage musculoskeletal pain and improve quality of life with personalised plans to address your specific needs."
+      },
+      "exerciseSah": {
+        "title": "Exercise Programs",
+        "description": "Tailored exercise programs to improve strength, balance, and mobility. Designed to complement treatment and help you stay active and independent at home."
+      },
+      "chronicSah": {
+        "title": "Chronic Condition Management",
+        "description": "Ongoing osteopathic care for conditions such as arthritis, chronic pain, and musculoskeletal disorders. We work with you to manage symptoms, maintain mobility, and improve your quality of life over time."
+      },
+      "fallsSah": {
+        "title": "Falls Prevention",
+        "description": "Assessment of balance, gait, and musculoskeletal risk factors to reduce your risk of falls. Our osteopaths identify areas of concern and provide targeted treatment and exercises to help you stay safe and confident on your feet."
+      }
+    }
+  },
+  "about": {
+    "tag": "About Us",
+    "headingStart": "Therapy that's ",
+    "handwrittenAccent": "human and ",
+    "underlineWord": "real",
+    "paragraphs": [
+      "Pillars Therapy is a leading allied health service provider delivering multidisciplinary rehabilitation services in your home and remotely via Telehealth across Metro Melbourne. We can also service regional areas at an additional travel cost.",
+      "Our team of occupational therapists and osteopaths are passionate about helping you achieve your goals, whether that's returning to driving, modifying your home for better accessibility, managing pain, or building strength and independence.",
+      "We believe everyone deserves care that's responsive, respectful, and tailored to their life. That's why we come to you."
+    ],
+    "metroValue": "Metro Melbourne",
+    "metroLabel": "Service area (regional available)",
+    "deliveryValue": "In-home & Telehealth",
+    "deliveryLabel": "Delivery model",
+    "captions": [
+      "The team at Pillars Therapy",
+      "Laughing with Mary",
+      "Chatting with John"
+    ]
+  },
+  "contact": {
+    "tag": "Get Started",
+    "heading": "Ready to begin?",
+    "description": "Whether you're an NDIS participant, Support at Home client, or looking for private services, we're here to help. Reach out to book an assessment or ask a question.",
+    "serviceArea": "Servicing all of Metro Melbourne"
+  },
+  "contactForm": {
+    "nameLabel": "Name",
+    "namePlaceholder": "Your full name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "04XX XXX XXX",
+    "fundingLabel": "Funding Type",
+    "fundingPlaceholder": "Select your funding type",
+    "fundingOptions": {
+      "ndis-plan": "NDIS - Plan Managed",
+      "ndis-self": "NDIS - Self Managed",
+      "sah": "Support at Home",
+      "private": "Private"
+    },
+    "serviceLabel": "Service Needed",
+    "servicePlaceholder": "Select a service",
+    "otGroup": "Occupational Therapy",
+    "osteoGroup": "Osteopathy",
+    "serviceOptions": {
+      "driving": "Driving Assessments",
+      "functional": "Functional Assessments",
+      "home-mod": "Home Modification Assessments",
+      "at": "Assistive Technology Assessments",
+      "sda-sil": "SDA/SIL Applications",
+      "wheelchair": "Wheelchair Assessments",
+      "pain": "Pain Management",
+      "exercise": "Exercise Programs",
+      "chronic": "Chronic Condition Management",
+      "falls": "Falls Prevention"
+    },
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us a bit about what you need...",
+    "submit": "Send Enquiry",
+    "submitting": "Sending...",
+    "thankYouTitle": "Thank you!",
+    "thankYouMessage": "Your enquiry has been received. We'll be in touch within 1\u20132 business days.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorConnection": "Could not connect to the server. Please try again or email us directly at contact@pillarstherapy.com.au"
+  },
+  "footer": {
+    "brandDescription": "Multidisciplinary allied health services delivered in your home across Metro Melbourne.",
+    "servicesHeading": "Services",
+    "ndisServices": "NDIS Services",
+    "supportAtHome": "Support at Home",
+    "allServices": "All Services",
+    "disciplinesHeading": "Disciplines",
+    "ot": "Occupational Therapy",
+    "osteo": "Osteopathy",
+    "contactHeading": "Contact",
+    "sendEnquiry": "Send an Enquiry",
+    "serviceArea": "Servicing all of Metro Melbourne",
+    "abn": "ABN 56 454 434 878",
+    "copyright": "\u00a9 2026 Pillars Therapy. All rights reserved."
+  },
+  "languageToggle": {
+    "label": "Language",
+    "english": "English",
+    "vietnamese": "Ti\u1ebfng Vi\u1ec7t",
+    "mandarin": "\u4e2d\u6587\uff08\u7b80\u4f53\uff09",
+    "cantonese": "\u4e2d\u6587\uff08\u7e41\u9ad4\uff09"
+  }
+}
