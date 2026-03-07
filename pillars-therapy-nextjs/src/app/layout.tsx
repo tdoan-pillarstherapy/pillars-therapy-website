@@ -42,8 +42,8 @@ export default function RootLayout({
       </head>
       <body>
         <Providers>
-          <PaperPlaneTrail />
           {children}
+          <PaperPlaneTrail />
           <FadeInInitializer />
         </Providers>
       </body>
